@@ -3,6 +3,7 @@
 namespace App\Http\Requests\Admin;
 
 use App\Http\Requests\Translatable;
+use App\Support\HtmlSanitizer;
 use Illuminate\Validation\Rule;
 
 class ProductRequest extends AdminRequest
@@ -46,5 +47,13 @@ class ProductRequest extends AdminRequest
                 'sort_order' => ['integer', 'min:0'],
             ],
         );
+    }
+
+    /** Rich-text HTML is sanitized before validation and storage. */
+    protected function prepareForValidation(): void
+    {
+        if (is_array($this->input('description'))) {
+            $this->merge(['description' => HtmlSanitizer::cleanTranslations($this->input('description'))]);
+        }
     }
 }

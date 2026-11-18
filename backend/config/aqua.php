@@ -13,6 +13,14 @@ return [
     'leads_notification_email' => env('LEADS_NOTIFICATION_EMAIL'),
 
     /*
+    | On-demand revalidation of the Next.js cache (POST {url} with X-Revalidate-Secret).
+    */
+    'revalidate' => [
+        'url' => env('FRONTEND_REVALIDATE_URL'),
+        'secret' => env('FRONTEND_REVALIDATE_SECRET'),
+    ],
+
+    /*
     | Role based access control. Each role maps to a list of abilities.
     | "super_admin" bypasses all checks (see AuthServiceProvider / Gate::before).
     */

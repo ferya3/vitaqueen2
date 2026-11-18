@@ -3,6 +3,7 @@
 namespace App\Http\Requests\Admin;
 
 use App\Http\Requests\Translatable;
+use App\Support\HtmlSanitizer;
 use Illuminate\Validation\Rule;
 
 class PageRequest extends AdminRequest
@@ -24,5 +25,13 @@ class PageRequest extends AdminRequest
                 'is_published' => ['boolean'],
             ],
         );
+    }
+
+    /** Rich-text HTML is sanitized before validation and storage. */
+    protected function prepareForValidation(): void
+    {
+        if (is_array($this->input('body'))) {
+            $this->merge(['body' => HtmlSanitizer::cleanTranslations($this->input('body'))]);
+        }
     }
 }

@@ -4,6 +4,7 @@ namespace Tests\Feature;
 
 use App\Enums\Role;
 use App\Models\ActivityLog;
+use App\Models\Article;
 use App\Models\Product;
 use App\Models\Representative;
 use App\Models\User;
@@ -184,5 +185,21 @@ class AdminApiTest extends TestCase
 
         $this->getJson('/api/v1/admin/dashboard')->assertOk()->assertJsonPath('data.counts.representatives_new', 3);
         $this->getJson('/api/v1/admin/reports?days=7')->assertOk()->assertJsonCount(7, 'data.series');
+    }
+
+    public function test_rich_text_is_sanitized_on_save(): void
+    {
+        $this->actingAsRole(Role::ContentManager);
+
+        $this->postJson('/api/v1/admin/articles', [
+            'slug' => 'xss-test',
+            'title' => ['fa' => 'تست'],
+            'body' => ['fa' => '<p>متن</p><script>alert(1)</script><img src=x onerror=alert(1)>'],
+        ])->assertCreated();
+
+        $body = Article::where('slug', 'xss-test')->first()->body['fa'];
+        $this->assertStringNotContainsString('<script', $body);
+        $this->assertStringNotContainsString('onerror', $body);
+        $this->assertStringContainsString('<p>متن</p>', $body);
     }
 }

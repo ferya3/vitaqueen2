@@ -1,0 +1,2037 @@
+{
+  "generated_at": "2026-11-18T18:07:14.901Z",
+  "home": {
+    "settings": {
+      "site": {
+        "name": "فيتا كوين",
+        "legal_name": "شركة فيتا كوين للمياه المعدنية",
+        "tagline": "الطبيعة في أنقى صورها",
+        "description": "منتج للمياه المعدنية الطبيعية بخطوط آلية بالكامل ومختبر لمراقبة الجودة وشبكة توزيع واسعة."
+      },
+      "hero": {
+        "title": "الطبيعة في أنقى صورها",
+        "subtitle": "مياه معدنية طبيعية من قلب الطبيعة، معبأة بأحدث التقنيات من أجل حياة أكثر صحة.",
+        "video_url": null,
+        "poster_url": null
+      },
+      "stats": [
+        {
+          "key": "production_lines",
+          "value": 2,
+          "suffix": null,
+          "label": "خطوط الإنتاج"
+        },
+        {
+          "key": "products",
+          "value": 5,
+          "suffix": null,
+          "label": "منتجات"
+        }
+      ],
+      "contact": {
+        "phone": "+98 21 0000 0000",
+        "sales_phone": "+98 912 000 0000",
+        "email": "info@example.com",
+        "sales_email": "sales@example.com",
+        "address": "أدخل عنوان المصنع من لوحة الإدارة",
+        "working_hours": "السبت–الأربعاء ٨:٠٠–١٦:٠٠ · الخميس ٨:٠٠–١٢:٠٠",
+        "map": {
+          "lat": 35.6892,
+          "lng": 51.389,
+          "zoom": 13
+        }
+      },
+      "social": {
+        "instagram": null,
+        "linkedin": null,
+        "telegram": null,
+        "whatsapp": null,
+        "aparat": null
+      },
+      "seo": {
+        "title_suffix": "فيتا كوين",
+        "keywords": "مياه معدنية, مصنع مياه, توزيع مياه, تصدير"
+      }
+    },
+    "products": [
+      {
+        "id": 1,
+        "slug": "mineral-water-330ml",
+        "sku": "VQ-00330",
+        "name": "مياه معدنية ٣٣٠ مل",
+        "short_description": "عبوة صغيرة وخفيفة، مثالية للاجتماعات والضيافة والتنقل.",
+        "description": "<p>عبوة صغيرة وخفيفة، مثالية للاجتماعات والضيافة والتنقل.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+        "volume_ml": 330,
+        "size_class": "small",
+        "bottle_material": "PET",
+        "units_per_pack": 24,
+        "packs_per_pallet": 84,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "الحجم",
+            "value": "330 ml"
+          },
+          {
+            "label": "مادة العبوة",
+            "value": "PET غذائي"
+          },
+          {
+            "label": "الغطاء",
+            "value": "مع حلقة ضمان"
+          },
+          {
+            "label": "التغليف",
+            "value": "تغليف حراري"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#13A8CE",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "مياه معدنية طبيعية",
+          "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+          "sort_order": 1
+        },
+        "image": null,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 2,
+        "slug": "mineral-water-500ml",
+        "sku": "VQ-00500",
+        "name": "مياه معدنية ٥٠٠ مل",
+        "short_description": "الحجم الأكثر مبيعاً للاستخدام اليومي.",
+        "description": "<p>الحجم الأكثر مبيعاً للاستخدام اليومي.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+        "volume_ml": 500,
+        "size_class": "small",
+        "bottle_material": "PET",
+        "units_per_pack": 12,
+        "packs_per_pallet": 120,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "الحجم",
+            "value": "500 ml"
+          },
+          {
+            "label": "مادة العبوة",
+            "value": "PET غذائي"
+          },
+          {
+            "label": "الغطاء",
+            "value": "مع حلقة ضمان"
+          },
+          {
+            "label": "التغليف",
+            "value": "تغليف حراري"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#13A8CE",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "مياه معدنية طبيعية",
+          "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+          "sort_order": 1
+        },
+        "image": null,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T18:04:44+00:00"
+      },
+      {
+        "id": 3,
+        "slug": "mineral-water-1500ml",
+        "sku": "VQ-01500",
+        "name": "مياه معدنية ١٫٥ لتر",
+        "short_description": "حجم العائلة للمنزل ومائدة الطعام.",
+        "description": "<p>حجم العائلة للمنزل ومائدة الطعام.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+        "volume_ml": 1500,
+        "size_class": "medium",
+        "bottle_material": "PET",
+        "units_per_pack": 6,
+        "packs_per_pallet": 80,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "الحجم",
+            "value": "1.5 L"
+          },
+          {
+            "label": "مادة العبوة",
+            "value": "PET غذائي"
+          },
+          {
+            "label": "الغطاء",
+            "value": "مع حلقة ضمان"
+          },
+          {
+            "label": "التغليف",
+            "value": "تغليف حراري"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#0E7FA6",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "مياه معدنية طبيعية",
+          "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+          "sort_order": 1
+        },
+        "image": null,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 4,
+        "slug": "mineral-water-10l",
+        "sku": "VQ-10000",
+        "name": "مياه معدنية ١٠ لتر",
+        "short_description": "عبوة بمقبض للمكاتب والورش والاستهلاك الكبير.",
+        "description": "<p>عبوة بمقبض للمكاتب والورش والاستهلاك الكبير.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+        "volume_ml": 10000,
+        "size_class": "large",
+        "bottle_material": "PET",
+        "units_per_pack": 1,
+        "packs_per_pallet": 60,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "الحجم",
+            "value": "10 L"
+          },
+          {
+            "label": "مادة العبوة",
+            "value": "PET غذائي"
+          },
+          {
+            "label": "الغطاء",
+            "value": "مع حلقة ضمان"
+          },
+          {
+            "label": "التغليف",
+            "value": "عبوة فردية"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#073B59",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "مياه معدنية طبيعية",
+          "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+          "sort_order": 1
+        },
+        "image": null,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      }
+    ],
+    "production_steps": [
+      {
+        "id": 1,
+        "key": "source",
+        "title": "مصدر المياه",
+        "description": "تنتقل المياه من مصدر طبيعي محمي بعيد عن التلوث عبر أنابيب صحية من الفولاذ المقاوم للصدأ.",
+        "icon": "droplet",
+        "image_url": null,
+        "sort_order": 1
+      },
+      {
+        "id": 2,
+        "key": "filtration",
+        "title": "الترشيح",
+        "description": "ترشيح متعدد المراحل يزيل الشوائب مع الحفاظ على التوازن المعدني الطبيعي.",
+        "icon": "filter",
+        "image_url": null,
+        "sort_order": 2
+      },
+      {
+        "id": 3,
+        "key": "disinfection",
+        "title": "التعقيم",
+        "description": "تعقيم بالأشعة فوق البنفسجية والأوزون دون كلور أو مواد كيميائية.",
+        "icon": "sun",
+        "image_url": null,
+        "sort_order": 3
+      },
+      {
+        "id": 4,
+        "key": "laboratory",
+        "title": "المختبر",
+        "description": "أخذ عينات مستمر واختبارات فيزيائية وكيميائية وميكروبية في مختبرنا.",
+        "icon": "flask",
+        "image_url": null,
+        "sort_order": 4
+      },
+      {
+        "id": 5,
+        "key": "filling",
+        "title": "التعبئة",
+        "description": "الغسل والتعبئة والإغلاق في وحدة آلية بالكامل داخل غرفة نظيفة دون لمس اليد.",
+        "icon": "bottle",
+        "image_url": null,
+        "sort_order": 5
+      },
+      {
+        "id": 6,
+        "key": "labeling",
+        "title": "الملصقات والترميز",
+        "description": "ملصقات دقيقة مع تاريخ الإنتاج والانتهاء ورقم الدفعة للتتبع الكامل.",
+        "icon": "tag",
+        "image_url": null,
+        "sort_order": 6
+      },
+      {
+        "id": 7,
+        "key": "packaging",
+        "title": "التغليف",
+        "description": "تغليف حراري وتجميع على منصات آلياً لنقل آمن.",
+        "icon": "package",
+        "image_url": null,
+        "sort_order": 7
+      },
+      {
+        "id": 8,
+        "key": "quality",
+        "title": "مراقبة الجودة النهائية",
+        "description": "تُفحص كل دفعة قبل خروجها ويُحتفظ بعينة مرجعية منها.",
+        "icon": "shield-check",
+        "image_url": null,
+        "sort_order": 8
+      }
+    ],
+    "certificates": [
+      {
+        "id": 1,
+        "type": "certificate",
+        "title": "ترخيص التصنيع من هيئة الغذاء والدواء",
+        "issuer": "هيئة الغذاء والدواء",
+        "description": "ارفع النسخة الرسمية من هذه الوثيقة من لوحة الإدارة.",
+        "certificate_number": null,
+        "issued_at": null,
+        "expires_at": null,
+        "is_expired": false,
+        "image_url": null,
+        "file_url": null,
+        "sort_order": 1
+      },
+      {
+        "id": 2,
+        "type": "standard",
+        "title": "علامة المواصفة الوطنية الإيرانية",
+        "issuer": "المنظمة الوطنية للمواصفات",
+        "description": "ارفع النسخة الرسمية من هذه الوثيقة من لوحة الإدارة.",
+        "certificate_number": null,
+        "issued_at": null,
+        "expires_at": null,
+        "is_expired": false,
+        "image_url": null,
+        "file_url": null,
+        "sort_order": 2
+      },
+      {
+        "id": 3,
+        "type": "certificate",
+        "title": "نظام إدارة سلامة الغذاء ISO 22000",
+        "issuer": "جهة الاعتماد",
+        "description": "ارفع النسخة الرسمية من هذه الوثيقة من لوحة الإدارة.",
+        "certificate_number": null,
+        "issued_at": null,
+        "expires_at": null,
+        "is_expired": false,
+        "image_url": null,
+        "file_url": null,
+        "sort_order": 3
+      },
+      {
+        "id": 4,
+        "type": "certificate",
+        "title": "نظام تحليل المخاطر HACCP",
+        "issuer": "جهة الاعتماد",
+        "description": "ارفع النسخة الرسمية من هذه الوثيقة من لوحة الإدارة.",
+        "certificate_number": null,
+        "issued_at": null,
+        "expires_at": null,
+        "is_expired": false,
+        "image_url": null,
+        "file_url": null,
+        "sort_order": 4
+      }
+    ],
+    "articles": [
+      {
+        "id": 3,
+        "slug": "website-launch",
+        "type": "news",
+        "title": "إطلاق الموقع الإلكتروني الجديد",
+        "excerpt": "انطلق الموقع الجديد مع إمكانية تقديم طلبات الوكالة عبر الإنترنت وتحميل الشهادات.",
+        "cover_url": null,
+        "published_at": "2026-11-17T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 1,
+        "slug": "how-to-read-mineral-water-label",
+        "type": "article",
+        "title": "كيف تقرأ ملصق المياه المعدنية؟",
+        "excerpt": "ماذا تعني قيم TDS والرقم الهيدروجيني والأملاح على الملصق وكيف تختار المياه المناسبة؟",
+        "cover_url": null,
+        "published_at": "2026-11-15T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 2,
+        "slug": "hydration-at-work",
+        "type": "article",
+        "title": "الماء والإنتاجية في العمل",
+        "excerpt": "لماذا يجب على المؤسسات توفير مياه شرب آمنة لموظفيها؟",
+        "cover_url": null,
+        "published_at": "2026-11-08T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      }
+    ]
+  },
+  "settings": {
+    "site": {
+      "name": "فيتا كوين",
+      "legal_name": "شركة فيتا كوين للمياه المعدنية",
+      "tagline": "الطبيعة في أنقى صورها",
+      "description": "منتج للمياه المعدنية الطبيعية بخطوط آلية بالكامل ومختبر لمراقبة الجودة وشبكة توزيع واسعة."
+    },
+    "hero": {
+      "title": "الطبيعة في أنقى صورها",
+      "subtitle": "مياه معدنية طبيعية من قلب الطبيعة، معبأة بأحدث التقنيات من أجل حياة أكثر صحة.",
+      "video_url": null,
+      "poster_url": null
+    },
+    "stats": [
+      {
+        "key": "production_lines",
+        "value": 2,
+        "suffix": null,
+        "label": "خطوط الإنتاج"
+      },
+      {
+        "key": "products",
+        "value": 5,
+        "suffix": null,
+        "label": "منتجات"
+      }
+    ],
+    "contact": {
+      "phone": "+98 21 0000 0000",
+      "sales_phone": "+98 912 000 0000",
+      "email": "info@example.com",
+      "sales_email": "sales@example.com",
+      "address": "أدخل عنوان المصنع من لوحة الإدارة",
+      "working_hours": "السبت–الأربعاء ٨:٠٠–١٦:٠٠ · الخميس ٨:٠٠–١٢:٠٠",
+      "map": {
+        "lat": 35.6892,
+        "lng": 51.389,
+        "zoom": 13
+      }
+    },
+    "social": {
+      "instagram": null,
+      "linkedin": null,
+      "telegram": null,
+      "whatsapp": null,
+      "aparat": null
+    },
+    "seo": {
+      "title_suffix": "فيتا كوين",
+      "keywords": "مياه معدنية, مصنع مياه, توزيع مياه, تصدير"
+    }
+  },
+  "categories": [
+    {
+      "id": 1,
+      "slug": "natural-mineral-water",
+      "name": "مياه معدنية طبيعية",
+      "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+      "sort_order": 1,
+      "products_count": 4
+    },
+    {
+      "id": 2,
+      "slug": "special-products",
+      "name": "منتجات خاصة",
+      "description": "منتجات بعبوات زجاجية وملصقات مخصصة للفنادق والمطاعم والفعاليات.",
+      "sort_order": 2,
+      "products_count": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "slug": "mineral-water-330ml",
+      "sku": "VQ-00330",
+      "name": "مياه معدنية ٣٣٠ مل",
+      "short_description": "عبوة صغيرة وخفيفة، مثالية للاجتماعات والضيافة والتنقل.",
+      "description": "<p>عبوة صغيرة وخفيفة، مثالية للاجتماعات والضيافة والتنقل.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+      "volume_ml": 330,
+      "size_class": "small",
+      "bottle_material": "PET",
+      "units_per_pack": 24,
+      "packs_per_pallet": 84,
+      "shelf_life_months": 12,
+      "ph": null,
+      "tds": null,
+      "mineral_composition": [],
+      "specs": [
+        {
+          "label": "الحجم",
+          "value": "330 ml"
+        },
+        {
+          "label": "مادة العبوة",
+          "value": "PET غذائي"
+        },
+        {
+          "label": "الغطاء",
+          "value": "مع حلقة ضمان"
+        },
+        {
+          "label": "التغليف",
+          "value": "تغليف حراري"
+        }
+      ],
+      "barcode": null,
+      "accent_color": "#13A8CE",
+      "is_featured": true,
+      "category": {
+        "id": 1,
+        "slug": "natural-mineral-water",
+        "name": "مياه معدنية طبيعية",
+        "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+        "sort_order": 1
+      },
+      "image": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    },
+    {
+      "id": 2,
+      "slug": "mineral-water-500ml",
+      "sku": "VQ-00500",
+      "name": "مياه معدنية ٥٠٠ مل",
+      "short_description": "الحجم الأكثر مبيعاً للاستخدام اليومي.",
+      "description": "<p>الحجم الأكثر مبيعاً للاستخدام اليومي.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+      "volume_ml": 500,
+      "size_class": "small",
+      "bottle_material": "PET",
+      "units_per_pack": 12,
+      "packs_per_pallet": 120,
+      "shelf_life_months": 12,
+      "ph": null,
+      "tds": null,
+      "mineral_composition": [],
+      "specs": [
+        {
+          "label": "الحجم",
+          "value": "500 ml"
+        },
+        {
+          "label": "مادة العبوة",
+          "value": "PET غذائي"
+        },
+        {
+          "label": "الغطاء",
+          "value": "مع حلقة ضمان"
+        },
+        {
+          "label": "التغليف",
+          "value": "تغليف حراري"
+        }
+      ],
+      "barcode": null,
+      "accent_color": "#13A8CE",
+      "is_featured": true,
+      "category": {
+        "id": 1,
+        "slug": "natural-mineral-water",
+        "name": "مياه معدنية طبيعية",
+        "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+        "sort_order": 1
+      },
+      "image": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T18:04:44+00:00"
+    },
+    {
+      "id": 3,
+      "slug": "mineral-water-1500ml",
+      "sku": "VQ-01500",
+      "name": "مياه معدنية ١٫٥ لتر",
+      "short_description": "حجم العائلة للمنزل ومائدة الطعام.",
+      "description": "<p>حجم العائلة للمنزل ومائدة الطعام.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+      "volume_ml": 1500,
+      "size_class": "medium",
+      "bottle_material": "PET",
+      "units_per_pack": 6,
+      "packs_per_pallet": 80,
+      "shelf_life_months": 12,
+      "ph": null,
+      "tds": null,
+      "mineral_composition": [],
+      "specs": [
+        {
+          "label": "الحجم",
+          "value": "1.5 L"
+        },
+        {
+          "label": "مادة العبوة",
+          "value": "PET غذائي"
+        },
+        {
+          "label": "الغطاء",
+          "value": "مع حلقة ضمان"
+        },
+        {
+          "label": "التغليف",
+          "value": "تغليف حراري"
+        }
+      ],
+      "barcode": null,
+      "accent_color": "#0E7FA6",
+      "is_featured": true,
+      "category": {
+        "id": 1,
+        "slug": "natural-mineral-water",
+        "name": "مياه معدنية طبيعية",
+        "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+        "sort_order": 1
+      },
+      "image": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    },
+    {
+      "id": 4,
+      "slug": "mineral-water-10l",
+      "sku": "VQ-10000",
+      "name": "مياه معدنية ١٠ لتر",
+      "short_description": "عبوة بمقبض للمكاتب والورش والاستهلاك الكبير.",
+      "description": "<p>عبوة بمقبض للمكاتب والورش والاستهلاك الكبير.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+      "volume_ml": 10000,
+      "size_class": "large",
+      "bottle_material": "PET",
+      "units_per_pack": 1,
+      "packs_per_pallet": 60,
+      "shelf_life_months": 12,
+      "ph": null,
+      "tds": null,
+      "mineral_composition": [],
+      "specs": [
+        {
+          "label": "الحجم",
+          "value": "10 L"
+        },
+        {
+          "label": "مادة العبوة",
+          "value": "PET غذائي"
+        },
+        {
+          "label": "الغطاء",
+          "value": "مع حلقة ضمان"
+        },
+        {
+          "label": "التغليف",
+          "value": "عبوة فردية"
+        }
+      ],
+      "barcode": null,
+      "accent_color": "#073B59",
+      "is_featured": true,
+      "category": {
+        "id": 1,
+        "slug": "natural-mineral-water",
+        "name": "مياه معدنية طبيعية",
+        "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+        "sort_order": 1
+      },
+      "image": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    },
+    {
+      "id": 5,
+      "slug": "premium-glass-750ml",
+      "sku": "VQ-00750-G",
+      "name": "زجاجة فاخرة ٧٥٠ مل",
+      "short_description": "زجاجة للفنادق والمطاعم الراقية.",
+      "description": "<p>زجاجة للفنادق والمطاعم الراقية.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+      "volume_ml": 750,
+      "size_class": "medium",
+      "bottle_material": "Glass",
+      "units_per_pack": 12,
+      "packs_per_pallet": 50,
+      "shelf_life_months": 24,
+      "ph": null,
+      "tds": null,
+      "mineral_composition": [],
+      "specs": [
+        {
+          "label": "الحجم",
+          "value": "750 ml"
+        },
+        {
+          "label": "مادة العبوة",
+          "value": "زجاج"
+        },
+        {
+          "label": "الغطاء",
+          "value": "مع حلقة ضمان"
+        },
+        {
+          "label": "التغليف",
+          "value": "تغليف حراري"
+        }
+      ],
+      "barcode": null,
+      "accent_color": "#8DD9E9",
+      "is_featured": false,
+      "category": {
+        "id": 2,
+        "slug": "special-products",
+        "name": "منتجات خاصة",
+        "description": "منتجات بعبوات زجاجية وملصقات مخصصة للفنادق والمطاعم والفعاليات.",
+        "sort_order": 2
+      },
+      "image": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    }
+  ],
+  "productDetails": {
+    "mineral-water-330ml": {
+      "data": {
+        "id": 1,
+        "slug": "mineral-water-330ml",
+        "sku": "VQ-00330",
+        "name": "مياه معدنية ٣٣٠ مل",
+        "short_description": "عبوة صغيرة وخفيفة، مثالية للاجتماعات والضيافة والتنقل.",
+        "description": "<p>عبوة صغيرة وخفيفة، مثالية للاجتماعات والضيافة والتنقل.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+        "volume_ml": 330,
+        "size_class": "small",
+        "bottle_material": "PET",
+        "units_per_pack": 24,
+        "packs_per_pallet": 84,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "الحجم",
+            "value": "330 ml"
+          },
+          {
+            "label": "مادة العبوة",
+            "value": "PET غذائي"
+          },
+          {
+            "label": "الغطاء",
+            "value": "مع حلقة ضمان"
+          },
+          {
+            "label": "التغليف",
+            "value": "تغليف حراري"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#13A8CE",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "مياه معدنية طبيعية",
+          "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+          "sort_order": 1
+        },
+        "image": null,
+        "images": [],
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": [
+        {
+          "id": 2,
+          "slug": "mineral-water-500ml",
+          "sku": "VQ-00500",
+          "name": "مياه معدنية ٥٠٠ مل",
+          "short_description": "الحجم الأكثر مبيعاً للاستخدام اليومي.",
+          "description": "<p>الحجم الأكثر مبيعاً للاستخدام اليومي.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+          "volume_ml": 500,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 12,
+          "packs_per_pallet": 120,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "الحجم",
+              "value": "500 ml"
+            },
+            {
+              "label": "مادة العبوة",
+              "value": "PET غذائي"
+            },
+            {
+              "label": "الغطاء",
+              "value": "مع حلقة ضمان"
+            },
+            {
+              "label": "التغليف",
+              "value": "تغليف حراري"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "مياه معدنية طبيعية",
+            "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T18:04:44+00:00"
+        },
+        {
+          "id": 3,
+          "slug": "mineral-water-1500ml",
+          "sku": "VQ-01500",
+          "name": "مياه معدنية ١٫٥ لتر",
+          "short_description": "حجم العائلة للمنزل ومائدة الطعام.",
+          "description": "<p>حجم العائلة للمنزل ومائدة الطعام.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+          "volume_ml": 1500,
+          "size_class": "medium",
+          "bottle_material": "PET",
+          "units_per_pack": 6,
+          "packs_per_pallet": 80,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "الحجم",
+              "value": "1.5 L"
+            },
+            {
+              "label": "مادة العبوة",
+              "value": "PET غذائي"
+            },
+            {
+              "label": "الغطاء",
+              "value": "مع حلقة ضمان"
+            },
+            {
+              "label": "التغليف",
+              "value": "تغليف حراري"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#0E7FA6",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "مياه معدنية طبيعية",
+            "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        },
+        {
+          "id": 4,
+          "slug": "mineral-water-10l",
+          "sku": "VQ-10000",
+          "name": "مياه معدنية ١٠ لتر",
+          "short_description": "عبوة بمقبض للمكاتب والورش والاستهلاك الكبير.",
+          "description": "<p>عبوة بمقبض للمكاتب والورش والاستهلاك الكبير.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+          "volume_ml": 10000,
+          "size_class": "large",
+          "bottle_material": "PET",
+          "units_per_pack": 1,
+          "packs_per_pallet": 60,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "الحجم",
+              "value": "10 L"
+            },
+            {
+              "label": "مادة العبوة",
+              "value": "PET غذائي"
+            },
+            {
+              "label": "الغطاء",
+              "value": "مع حلقة ضمان"
+            },
+            {
+              "label": "التغليف",
+              "value": "عبوة فردية"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#073B59",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "مياه معدنية طبيعية",
+            "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    },
+    "mineral-water-500ml": {
+      "data": {
+        "id": 2,
+        "slug": "mineral-water-500ml",
+        "sku": "VQ-00500",
+        "name": "مياه معدنية ٥٠٠ مل",
+        "short_description": "الحجم الأكثر مبيعاً للاستخدام اليومي.",
+        "description": "<p>الحجم الأكثر مبيعاً للاستخدام اليومي.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+        "volume_ml": 500,
+        "size_class": "small",
+        "bottle_material": "PET",
+        "units_per_pack": 12,
+        "packs_per_pallet": 120,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "الحجم",
+            "value": "500 ml"
+          },
+          {
+            "label": "مادة العبوة",
+            "value": "PET غذائي"
+          },
+          {
+            "label": "الغطاء",
+            "value": "مع حلقة ضمان"
+          },
+          {
+            "label": "التغليف",
+            "value": "تغليف حراري"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#13A8CE",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "مياه معدنية طبيعية",
+          "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+          "sort_order": 1
+        },
+        "image": null,
+        "images": [],
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T18:04:44+00:00"
+      },
+      "related": [
+        {
+          "id": 1,
+          "slug": "mineral-water-330ml",
+          "sku": "VQ-00330",
+          "name": "مياه معدنية ٣٣٠ مل",
+          "short_description": "عبوة صغيرة وخفيفة، مثالية للاجتماعات والضيافة والتنقل.",
+          "description": "<p>عبوة صغيرة وخفيفة، مثالية للاجتماعات والضيافة والتنقل.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+          "volume_ml": 330,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 24,
+          "packs_per_pallet": 84,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "الحجم",
+              "value": "330 ml"
+            },
+            {
+              "label": "مادة العبوة",
+              "value": "PET غذائي"
+            },
+            {
+              "label": "الغطاء",
+              "value": "مع حلقة ضمان"
+            },
+            {
+              "label": "التغليف",
+              "value": "تغليف حراري"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "مياه معدنية طبيعية",
+            "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        },
+        {
+          "id": 3,
+          "slug": "mineral-water-1500ml",
+          "sku": "VQ-01500",
+          "name": "مياه معدنية ١٫٥ لتر",
+          "short_description": "حجم العائلة للمنزل ومائدة الطعام.",
+          "description": "<p>حجم العائلة للمنزل ومائدة الطعام.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+          "volume_ml": 1500,
+          "size_class": "medium",
+          "bottle_material": "PET",
+          "units_per_pack": 6,
+          "packs_per_pallet": 80,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "الحجم",
+              "value": "1.5 L"
+            },
+            {
+              "label": "مادة العبوة",
+              "value": "PET غذائي"
+            },
+            {
+              "label": "الغطاء",
+              "value": "مع حلقة ضمان"
+            },
+            {
+              "label": "التغليف",
+              "value": "تغليف حراري"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#0E7FA6",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "مياه معدنية طبيعية",
+            "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        },
+        {
+          "id": 4,
+          "slug": "mineral-water-10l",
+          "sku": "VQ-10000",
+          "name": "مياه معدنية ١٠ لتر",
+          "short_description": "عبوة بمقبض للمكاتب والورش والاستهلاك الكبير.",
+          "description": "<p>عبوة بمقبض للمكاتب والورش والاستهلاك الكبير.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+          "volume_ml": 10000,
+          "size_class": "large",
+          "bottle_material": "PET",
+          "units_per_pack": 1,
+          "packs_per_pallet": 60,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "الحجم",
+              "value": "10 L"
+            },
+            {
+              "label": "مادة العبوة",
+              "value": "PET غذائي"
+            },
+            {
+              "label": "الغطاء",
+              "value": "مع حلقة ضمان"
+            },
+            {
+              "label": "التغليف",
+              "value": "عبوة فردية"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#073B59",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "مياه معدنية طبيعية",
+            "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    },
+    "mineral-water-1500ml": {
+      "data": {
+        "id": 3,
+        "slug": "mineral-water-1500ml",
+        "sku": "VQ-01500",
+        "name": "مياه معدنية ١٫٥ لتر",
+        "short_description": "حجم العائلة للمنزل ومائدة الطعام.",
+        "description": "<p>حجم العائلة للمنزل ومائدة الطعام.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+        "volume_ml": 1500,
+        "size_class": "medium",
+        "bottle_material": "PET",
+        "units_per_pack": 6,
+        "packs_per_pallet": 80,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "الحجم",
+            "value": "1.5 L"
+          },
+          {
+            "label": "مادة العبوة",
+            "value": "PET غذائي"
+          },
+          {
+            "label": "الغطاء",
+            "value": "مع حلقة ضمان"
+          },
+          {
+            "label": "التغليف",
+            "value": "تغليف حراري"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#0E7FA6",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "مياه معدنية طبيعية",
+          "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+          "sort_order": 1
+        },
+        "image": null,
+        "images": [],
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": [
+        {
+          "id": 1,
+          "slug": "mineral-water-330ml",
+          "sku": "VQ-00330",
+          "name": "مياه معدنية ٣٣٠ مل",
+          "short_description": "عبوة صغيرة وخفيفة، مثالية للاجتماعات والضيافة والتنقل.",
+          "description": "<p>عبوة صغيرة وخفيفة، مثالية للاجتماعات والضيافة والتنقل.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+          "volume_ml": 330,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 24,
+          "packs_per_pallet": 84,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "الحجم",
+              "value": "330 ml"
+            },
+            {
+              "label": "مادة العبوة",
+              "value": "PET غذائي"
+            },
+            {
+              "label": "الغطاء",
+              "value": "مع حلقة ضمان"
+            },
+            {
+              "label": "التغليف",
+              "value": "تغليف حراري"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "مياه معدنية طبيعية",
+            "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        },
+        {
+          "id": 2,
+          "slug": "mineral-water-500ml",
+          "sku": "VQ-00500",
+          "name": "مياه معدنية ٥٠٠ مل",
+          "short_description": "الحجم الأكثر مبيعاً للاستخدام اليومي.",
+          "description": "<p>الحجم الأكثر مبيعاً للاستخدام اليومي.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+          "volume_ml": 500,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 12,
+          "packs_per_pallet": 120,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "الحجم",
+              "value": "500 ml"
+            },
+            {
+              "label": "مادة العبوة",
+              "value": "PET غذائي"
+            },
+            {
+              "label": "الغطاء",
+              "value": "مع حلقة ضمان"
+            },
+            {
+              "label": "التغليف",
+              "value": "تغليف حراري"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "مياه معدنية طبيعية",
+            "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T18:04:44+00:00"
+        },
+        {
+          "id": 4,
+          "slug": "mineral-water-10l",
+          "sku": "VQ-10000",
+          "name": "مياه معدنية ١٠ لتر",
+          "short_description": "عبوة بمقبض للمكاتب والورش والاستهلاك الكبير.",
+          "description": "<p>عبوة بمقبض للمكاتب والورش والاستهلاك الكبير.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+          "volume_ml": 10000,
+          "size_class": "large",
+          "bottle_material": "PET",
+          "units_per_pack": 1,
+          "packs_per_pallet": 60,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "الحجم",
+              "value": "10 L"
+            },
+            {
+              "label": "مادة العبوة",
+              "value": "PET غذائي"
+            },
+            {
+              "label": "الغطاء",
+              "value": "مع حلقة ضمان"
+            },
+            {
+              "label": "التغليف",
+              "value": "عبوة فردية"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#073B59",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "مياه معدنية طبيعية",
+            "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    },
+    "mineral-water-10l": {
+      "data": {
+        "id": 4,
+        "slug": "mineral-water-10l",
+        "sku": "VQ-10000",
+        "name": "مياه معدنية ١٠ لتر",
+        "short_description": "عبوة بمقبض للمكاتب والورش والاستهلاك الكبير.",
+        "description": "<p>عبوة بمقبض للمكاتب والورش والاستهلاك الكبير.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+        "volume_ml": 10000,
+        "size_class": "large",
+        "bottle_material": "PET",
+        "units_per_pack": 1,
+        "packs_per_pallet": 60,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "الحجم",
+            "value": "10 L"
+          },
+          {
+            "label": "مادة العبوة",
+            "value": "PET غذائي"
+          },
+          {
+            "label": "الغطاء",
+            "value": "مع حلقة ضمان"
+          },
+          {
+            "label": "التغليف",
+            "value": "عبوة فردية"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#073B59",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "مياه معدنية طبيعية",
+          "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+          "sort_order": 1
+        },
+        "image": null,
+        "images": [],
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": [
+        {
+          "id": 1,
+          "slug": "mineral-water-330ml",
+          "sku": "VQ-00330",
+          "name": "مياه معدنية ٣٣٠ مل",
+          "short_description": "عبوة صغيرة وخفيفة، مثالية للاجتماعات والضيافة والتنقل.",
+          "description": "<p>عبوة صغيرة وخفيفة، مثالية للاجتماعات والضيافة والتنقل.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+          "volume_ml": 330,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 24,
+          "packs_per_pallet": 84,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "الحجم",
+              "value": "330 ml"
+            },
+            {
+              "label": "مادة العبوة",
+              "value": "PET غذائي"
+            },
+            {
+              "label": "الغطاء",
+              "value": "مع حلقة ضمان"
+            },
+            {
+              "label": "التغليف",
+              "value": "تغليف حراري"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "مياه معدنية طبيعية",
+            "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        },
+        {
+          "id": 2,
+          "slug": "mineral-water-500ml",
+          "sku": "VQ-00500",
+          "name": "مياه معدنية ٥٠٠ مل",
+          "short_description": "الحجم الأكثر مبيعاً للاستخدام اليومي.",
+          "description": "<p>الحجم الأكثر مبيعاً للاستخدام اليومي.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+          "volume_ml": 500,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 12,
+          "packs_per_pallet": 120,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "الحجم",
+              "value": "500 ml"
+            },
+            {
+              "label": "مادة العبوة",
+              "value": "PET غذائي"
+            },
+            {
+              "label": "الغطاء",
+              "value": "مع حلقة ضمان"
+            },
+            {
+              "label": "التغليف",
+              "value": "تغليف حراري"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "مياه معدنية طبيعية",
+            "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T18:04:44+00:00"
+        },
+        {
+          "id": 3,
+          "slug": "mineral-water-1500ml",
+          "sku": "VQ-01500",
+          "name": "مياه معدنية ١٫٥ لتر",
+          "short_description": "حجم العائلة للمنزل ومائدة الطعام.",
+          "description": "<p>حجم العائلة للمنزل ومائدة الطعام.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+          "volume_ml": 1500,
+          "size_class": "medium",
+          "bottle_material": "PET",
+          "units_per_pack": 6,
+          "packs_per_pallet": 80,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "الحجم",
+              "value": "1.5 L"
+            },
+            {
+              "label": "مادة العبوة",
+              "value": "PET غذائي"
+            },
+            {
+              "label": "الغطاء",
+              "value": "مع حلقة ضمان"
+            },
+            {
+              "label": "التغليف",
+              "value": "تغليف حراري"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#0E7FA6",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "مياه معدنية طبيعية",
+            "description": "عبوات صغيرة ومتوسطة وكبيرة للاستخدام اليومي والعائلي وللمؤسسات.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    },
+    "premium-glass-750ml": {
+      "data": {
+        "id": 5,
+        "slug": "premium-glass-750ml",
+        "sku": "VQ-00750-G",
+        "name": "زجاجة فاخرة ٧٥٠ مل",
+        "short_description": "زجاجة للفنادق والمطاعم الراقية.",
+        "description": "<p>زجاجة للفنادق والمطاعم الراقية.</p><p>تُستخرج من مصدرنا الطبيعي وتُرشّح على عدة مراحل وتُختبر في المختبر ثم تُعبأ في بيئة صحية بالكامل دون تدخل يدوي.</p>",
+        "volume_ml": 750,
+        "size_class": "medium",
+        "bottle_material": "Glass",
+        "units_per_pack": 12,
+        "packs_per_pallet": 50,
+        "shelf_life_months": 24,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "الحجم",
+            "value": "750 ml"
+          },
+          {
+            "label": "مادة العبوة",
+            "value": "زجاج"
+          },
+          {
+            "label": "الغطاء",
+            "value": "مع حلقة ضمان"
+          },
+          {
+            "label": "التغليف",
+            "value": "تغليف حراري"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#8DD9E9",
+        "is_featured": false,
+        "category": {
+          "id": 2,
+          "slug": "special-products",
+          "name": "منتجات خاصة",
+          "description": "منتجات بعبوات زجاجية وملصقات مخصصة للفنادق والمطاعم والفعاليات.",
+          "sort_order": 2
+        },
+        "image": null,
+        "images": [],
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": []
+    }
+  },
+  "articles": {
+    "data": [
+      {
+        "id": 3,
+        "slug": "website-launch",
+        "type": "news",
+        "title": "إطلاق الموقع الإلكتروني الجديد",
+        "excerpt": "انطلق الموقع الجديد مع إمكانية تقديم طلبات الوكالة عبر الإنترنت وتحميل الشهادات.",
+        "cover_url": null,
+        "published_at": "2026-11-17T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 1,
+        "slug": "how-to-read-mineral-water-label",
+        "type": "article",
+        "title": "كيف تقرأ ملصق المياه المعدنية؟",
+        "excerpt": "ماذا تعني قيم TDS والرقم الهيدروجيني والأملاح على الملصق وكيف تختار المياه المناسبة؟",
+        "cover_url": null,
+        "published_at": "2026-11-15T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 2,
+        "slug": "hydration-at-work",
+        "type": "article",
+        "title": "الماء والإنتاجية في العمل",
+        "excerpt": "لماذا يجب على المؤسسات توفير مياه شرب آمنة لموظفيها؟",
+        "cover_url": null,
+        "published_at": "2026-11-08T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      }
+    ],
+    "meta": {
+      "current_page": 1,
+      "last_page": 1,
+      "per_page": 9,
+      "total": 3
+    }
+  },
+  "articleDetails": {
+    "website-launch": {
+      "data": {
+        "id": 3,
+        "slug": "website-launch",
+        "type": "news",
+        "title": "إطلاق الموقع الإلكتروني الجديد",
+        "excerpt": "انطلق الموقع الجديد مع إمكانية تقديم طلبات الوكالة عبر الإنترنت وتحميل الشهادات.",
+        "body": "<p>يمكن الآن للوكلاء والموزعين والعملاء من المؤسسات تقديم طلبات الشراكة عبر الإنترنت ومراجعة وثائق الجودة.</p>",
+        "cover_url": null,
+        "author": null,
+        "published_at": "2026-11-17T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": []
+    },
+    "how-to-read-mineral-water-label": {
+      "data": {
+        "id": 1,
+        "slug": "how-to-read-mineral-water-label",
+        "type": "article",
+        "title": "كيف تقرأ ملصق المياه المعدنية؟",
+        "excerpt": "ماذا تعني قيم TDS والرقم الهيدروجيني والأملاح على الملصق وكيف تختار المياه المناسبة؟",
+        "body": "<h2>ما هو TDS؟</h2><p>إجمالي المواد الصلبة الذائبة هو مجموع الأملاح الذائبة في الماء ويقاس بالملليغرام لكل لتر.</p><h2>الرقم الهيدروجيني</h2><p>يبين مدى حموضة أو قلوية الماء، وعادةً ما تكون مياه الشرب قريبة من المتعادل.</p><h2>الأملاح</h2><p>الكالسيوم والمغنيسيوم والصوديوم والبيكربونات هي أهم الأملاح التي تحدد الطعم.</p>",
+        "cover_url": null,
+        "author": null,
+        "published_at": "2026-11-15T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": [
+        {
+          "id": 2,
+          "slug": "hydration-at-work",
+          "type": "article",
+          "title": "الماء والإنتاجية في العمل",
+          "excerpt": "لماذا يجب على المؤسسات توفير مياه شرب آمنة لموظفيها؟",
+          "cover_url": null,
+          "published_at": "2026-11-08T17:38:19+00:00",
+          "reading_minutes": 1,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    },
+    "hydration-at-work": {
+      "data": {
+        "id": 2,
+        "slug": "hydration-at-work",
+        "type": "article",
+        "title": "الماء والإنتاجية في العمل",
+        "excerpt": "لماذا يجب على المؤسسات توفير مياه شرب آمنة لموظفيها؟",
+        "body": "<p>حتى الجفاف الخفيف يؤثر على التركيز والطاقة. توفير مياه معبأة موثوقة للمكاتب جزء من صحة بيئة العمل.</p>",
+        "cover_url": null,
+        "author": null,
+        "published_at": "2026-11-08T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": [
+        {
+          "id": 1,
+          "slug": "how-to-read-mineral-water-label",
+          "type": "article",
+          "title": "كيف تقرأ ملصق المياه المعدنية؟",
+          "excerpt": "ماذا تعني قيم TDS والرقم الهيدروجيني والأملاح على الملصق وكيف تختار المياه المناسبة؟",
+          "cover_url": null,
+          "published_at": "2026-11-15T17:38:19+00:00",
+          "reading_minutes": 1,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    }
+  },
+  "certificates": [
+    {
+      "id": 1,
+      "type": "certificate",
+      "title": "ترخيص التصنيع من هيئة الغذاء والدواء",
+      "issuer": "هيئة الغذاء والدواء",
+      "description": "ارفع النسخة الرسمية من هذه الوثيقة من لوحة الإدارة.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 1
+    },
+    {
+      "id": 2,
+      "type": "standard",
+      "title": "علامة المواصفة الوطنية الإيرانية",
+      "issuer": "المنظمة الوطنية للمواصفات",
+      "description": "ارفع النسخة الرسمية من هذه الوثيقة من لوحة الإدارة.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 2
+    },
+    {
+      "id": 3,
+      "type": "certificate",
+      "title": "نظام إدارة سلامة الغذاء ISO 22000",
+      "issuer": "جهة الاعتماد",
+      "description": "ارفع النسخة الرسمية من هذه الوثيقة من لوحة الإدارة.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 3
+    },
+    {
+      "id": 4,
+      "type": "certificate",
+      "title": "نظام تحليل المخاطر HACCP",
+      "issuer": "جهة الاعتماد",
+      "description": "ارفع النسخة الرسمية من هذه الوثيقة من لوحة الإدارة.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 4
+    },
+    {
+      "id": 5,
+      "type": "lab_report",
+      "title": "تقرير التحليل الفيزيائي والكيميائي",
+      "issuer": "مختبر معتمد",
+      "description": "ارفع النسخة الرسمية من هذه الوثيقة من لوحة الإدارة.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 5
+    },
+    {
+      "id": 6,
+      "type": "lab_report",
+      "title": "تقرير الاختبار الميكروبي",
+      "issuer": "مختبر مراقبة الجودة",
+      "description": "ارفع النسخة الرسمية من هذه الوثيقة من لوحة الإدارة.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 6
+    }
+  ],
+  "productionLines": [
+    {
+      "id": 1,
+      "name": "خط العبوات الصغيرة والمتوسطة",
+      "description": "خط آلي بالكامل: آلة نفخ، وحدة غسل وتعبئة وإغلاق، آلة ملصقات وتغليف حراري.",
+      "technology": "نفخ خطي، تعبئة بالجاذبية، ملصقات ملتفة",
+      "capacity_per_hour": null,
+      "bottle_sizes": [
+        330,
+        500,
+        1500
+      ],
+      "image_url": null,
+      "sort_order": 1
+    },
+    {
+      "id": 2,
+      "name": "خط العبوات الكبيرة",
+      "description": "خط مخصص للعبوات الكبيرة للأسر والمؤسسات.",
+      "technology": "تعبئة حجمية، إغلاق نصف آلي",
+      "capacity_per_hour": null,
+      "bottle_sizes": [
+        10000
+      ],
+      "image_url": null,
+      "sort_order": 2
+    }
+  ],
+  "productionSteps": [
+    {
+      "id": 1,
+      "key": "source",
+      "title": "مصدر المياه",
+      "description": "تنتقل المياه من مصدر طبيعي محمي بعيد عن التلوث عبر أنابيب صحية من الفولاذ المقاوم للصدأ.",
+      "icon": "droplet",
+      "image_url": null,
+      "sort_order": 1
+    },
+    {
+      "id": 2,
+      "key": "filtration",
+      "title": "الترشيح",
+      "description": "ترشيح متعدد المراحل يزيل الشوائب مع الحفاظ على التوازن المعدني الطبيعي.",
+      "icon": "filter",
+      "image_url": null,
+      "sort_order": 2
+    },
+    {
+      "id": 3,
+      "key": "disinfection",
+      "title": "التعقيم",
+      "description": "تعقيم بالأشعة فوق البنفسجية والأوزون دون كلور أو مواد كيميائية.",
+      "icon": "sun",
+      "image_url": null,
+      "sort_order": 3
+    },
+    {
+      "id": 4,
+      "key": "laboratory",
+      "title": "المختبر",
+      "description": "أخذ عينات مستمر واختبارات فيزيائية وكيميائية وميكروبية في مختبرنا.",
+      "icon": "flask",
+      "image_url": null,
+      "sort_order": 4
+    },
+    {
+      "id": 5,
+      "key": "filling",
+      "title": "التعبئة",
+      "description": "الغسل والتعبئة والإغلاق في وحدة آلية بالكامل داخل غرفة نظيفة دون لمس اليد.",
+      "icon": "bottle",
+      "image_url": null,
+      "sort_order": 5
+    },
+    {
+      "id": 6,
+      "key": "labeling",
+      "title": "الملصقات والترميز",
+      "description": "ملصقات دقيقة مع تاريخ الإنتاج والانتهاء ورقم الدفعة للتتبع الكامل.",
+      "icon": "tag",
+      "image_url": null,
+      "sort_order": 6
+    },
+    {
+      "id": 7,
+      "key": "packaging",
+      "title": "التغليف",
+      "description": "تغليف حراري وتجميع على منصات آلياً لنقل آمن.",
+      "icon": "package",
+      "image_url": null,
+      "sort_order": 7
+    },
+    {
+      "id": 8,
+      "key": "quality",
+      "title": "مراقبة الجودة النهائية",
+      "description": "تُفحص كل دفعة قبل خروجها ويُحتفظ بعينة مرجعية منها.",
+      "icon": "shield-check",
+      "image_url": null,
+      "sort_order": 8
+    }
+  ],
+  "pages": {
+    "about": {
+      "id": 1,
+      "slug": "about",
+      "title": "عن المصنع",
+      "excerpt": "نوصل المياه كما خلقتها الطبيعة، بأحدث التقنيات وأعلى المعايير.",
+      "body": "<p>قم بتحرير نبذة الشركة من لوحة الإدارة: التاريخ والملكية وموقع المصدر ومسيرة النمو.</p>",
+      "sections": [
+        {
+          "type": "mission",
+          "title": "المهمة",
+          "body": "توفير مياه شرب آمنة وطبيعية وموثوقة لكل أسرة ومؤسسة."
+        },
+        {
+          "type": "vision",
+          "title": "الرؤية",
+          "body": "أن نصبح العلامة المرجعية للمياه المعدنية في المنطقة مع حضور تصديري قوي."
+        },
+        {
+          "type": "values",
+          "title": "القيم",
+          "items": [
+            "النقاء والصحة",
+            "الشفافية في الجودة",
+            "المسؤولية تجاه الطبيعة",
+            "شراكات طويلة الأمد"
+          ]
+        },
+        {
+          "type": "timeline",
+          "title": "التاريخ",
+          "items": []
+        },
+        {
+          "type": "infrastructure",
+          "title": "البنية التحتية",
+          "items": [
+            "صالة إنتاج بمعايير غذائية",
+            "مختبر جودة فيزيائي وكيميائي وميكروبي",
+            "مستودع مغطى وأسطول توزيع",
+            "معالجة وتعقيم دون مواد كيميائية"
+          ]
+        }
+      ],
+      "cover_url": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    },
+    "export": {
+      "id": 2,
+      "slug": "export",
+      "title": "التصدير",
+      "excerpt": "نتعاون مع المستوردين والموزعين الدوليين مع إمكانية الملصقات الخاصة ووثائق التصدير الكاملة.",
+      "body": "<p>نتعاون مع المستوردين والموزعين الدوليين مع إمكانية الملصقات الخاصة ووثائق التصدير الكاملة.</p>",
+      "sections": [],
+      "cover_url": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    },
+    "privacy": {
+      "id": 3,
+      "slug": "privacy",
+      "title": "سياسة الخصوصية",
+      "excerpt": "تُستخدم المعلومات المرسلة فقط لمتابعة طلبك ولا تُشارك مع أي طرف ثالث.",
+      "body": "<p>تُستخدم المعلومات المرسلة فقط لمتابعة طلبك ولا تُشارك مع أي طرف ثالث.</p>",
+      "sections": [],
+      "cover_url": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    }
+  },
+  "sitemap": {
+    "products": [
+      {
+        "slug": "mineral-water-330ml",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "slug": "mineral-water-500ml",
+        "updated_at": "2026-11-18T18:04:44+00:00"
+      },
+      {
+        "slug": "mineral-water-1500ml",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "slug": "mineral-water-10l",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "slug": "premium-glass-750ml",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      }
+    ],
+    "articles": [
+      {
+        "slug": "website-launch",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "slug": "how-to-read-mineral-water-label",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "slug": "hydration-at-work",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      }
+    ]
+  }
+}

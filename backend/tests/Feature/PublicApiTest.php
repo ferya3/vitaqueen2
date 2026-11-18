@@ -2,10 +2,13 @@
 
 namespace Tests\Feature;
 
+use App\Jobs\RevalidateFrontend;
 use App\Models\Article;
 use App\Models\Product;
 use Database\Seeders\DatabaseSeeder;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Support\Facades\Bus;
+use Illuminate\Support\Facades\Cache;
 use Tests\TestCase;
 
 class PublicApiTest extends TestCase
@@ -82,6 +85,23 @@ class PublicApiTest extends TestCase
         $this->getJson('/api/v1/products/mineral-water-500ml?locale=en')->assertJsonPath('data.name', 'Renamed');
     }
 
+    public function test_cached_responses_survive_a_serializing_cache_store(): void
+    {
+        // Production stores (redis/file) serialize values and refuse to restore
+        // arbitrary classes, so nested resources must be cached as plain arrays.
+        config(['cache.default' => 'file']);
+        Cache::setDefaultDriver('file');
+        Cache::flush();
+
+        $this->getJson('/api/v1/products/mineral-water-500ml')->assertOk();
+        $this->getJson('/api/v1/products/mineral-water-500ml')
+            ->assertOk()
+            ->assertJsonPath('data.images', [])
+            ->assertJsonPath('data.category.slug', 'natural-mineral-water');
+
+        Cache::flush();
+    }
+
     public function test_api_sends_security_headers(): void
     {
         $this->getJson('/api/v1/settings')
@@ -97,5 +117,15 @@ class PublicApiTest extends TestCase
 
         $this->assertDatabaseHas('page_views', ['path' => '/fa/products', 'views' => 2]);
         $this->assertDatabaseMissing('page_views', ['path' => '/admin/products']);
+    }
+
+    public function test_content_changes_trigger_frontend_revalidation(): void
+    {
+        Bus::fake([RevalidateFrontend::class]);
+        config(['aqua.revalidate.url' => 'http://frontend/api/revalidate', 'aqua.revalidate.secret' => 'x']);
+
+        Product::first()->update(['is_featured' => false]);
+
+        Bus::assertDispatched(RevalidateFrontend::class);
     }
 }

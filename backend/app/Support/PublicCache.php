@@ -2,6 +2,7 @@
 
 namespace App\Support;
 
+use App\Jobs\RevalidateFrontend;
 use Closure;
 use Illuminate\Support\Facades\Cache;
 
@@ -24,17 +25,28 @@ final class PublicCache
             return $callback();
         }
 
-        return Cache::remember(self::key($key), $ttl, $callback);
+        // Store plain JSON-compatible arrays: nested API resources are objects until
+        // serialized, and the cache store refuses to unserialize arbitrary classes.
+        return Cache::remember(self::key($key), $ttl, fn () => self::plain($callback()));
     }
 
     public static function flush(): void
     {
         Cache::forever(self::VERSION_KEY, self::version() + 1);
+
+        if (filled(config('aqua.revalidate.url'))) {
+            RevalidateFrontend::dispatch()->afterCommit();
+        }
     }
 
     public static function version(): int
     {
         return (int) Cache::get(self::VERSION_KEY, 1);
+    }
+
+    private static function plain(mixed $value): mixed
+    {
+        return $value === null || is_scalar($value) ? $value : json_decode(json_encode($value), true);
     }
 
     private static function key(string $key): string

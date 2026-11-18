@@ -1,0 +1,2037 @@
+{
+  "generated_at": "2026-11-18T18:07:13.861Z",
+  "home": {
+    "settings": {
+      "site": {
+        "name": "ویتا کوئین",
+        "legal_name": "شرکت تولیدی آب معدنی ویتا کوئین",
+        "tagline": "طبیعت در خالص‌ترین شکل خود",
+        "description": "تولیدکننده آب معدنی طبیعی با خطوط تمام‌اتوماتیک، آزمایشگاه کنترل کیفیت و شبکه توزیع سراسری."
+      },
+      "hero": {
+        "title": "طبیعت در خالص‌ترین شکل خود",
+        "subtitle": "آب معدنی طبیعی، برگرفته از دل طبیعت و تولیدشده با فناوری روز برای زندگی سالم‌تر.",
+        "video_url": null,
+        "poster_url": null
+      },
+      "stats": [
+        {
+          "key": "production_lines",
+          "value": 2,
+          "suffix": null,
+          "label": "خط تولید فعال"
+        },
+        {
+          "key": "products",
+          "value": 5,
+          "suffix": null,
+          "label": "محصول"
+        }
+      ],
+      "contact": {
+        "phone": "+98 21 0000 0000",
+        "sales_phone": "+98 912 000 0000",
+        "email": "info@example.com",
+        "sales_email": "sales@example.com",
+        "address": "نشانی کارخانه را از پنل مدیریت وارد کنید",
+        "working_hours": "شنبه تا چهارشنبه ۸ تا ۱۶ — پنجشنبه ۸ تا ۱۲",
+        "map": {
+          "lat": 35.6892,
+          "lng": 51.389,
+          "zoom": 13
+        }
+      },
+      "social": {
+        "instagram": null,
+        "linkedin": null,
+        "telegram": null,
+        "whatsapp": null,
+        "aparat": null
+      },
+      "seo": {
+        "title_suffix": "ویتا کوئین",
+        "keywords": "آب معدنی, تولید آب معدنی, نمایندگی آب معدنی, پخش عمده آب"
+      }
+    },
+    "products": [
+      {
+        "id": 1,
+        "slug": "mineral-water-330ml",
+        "sku": "VQ-00330",
+        "name": "آب معدنی ۳۳۰ میلی‌لیتری",
+        "short_description": "بطری کوچک و سبک؛ مناسب پذیرایی، جلسات و همراه.",
+        "description": "<p>بطری کوچک و سبک؛ مناسب پذیرایی، جلسات و همراه.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+        "volume_ml": 330,
+        "size_class": "small",
+        "bottle_material": "PET",
+        "units_per_pack": 24,
+        "packs_per_pallet": 84,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "حجم",
+            "value": "330 ml"
+          },
+          {
+            "label": "جنس بطری",
+            "value": "PET گرید غذایی"
+          },
+          {
+            "label": "درب",
+            "value": "پلمب‌دار با حلقه ضمانت"
+          },
+          {
+            "label": "نوع بسته‌بندی",
+            "value": "شیرینک"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#13A8CE",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "آب معدنی طبیعی",
+          "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+          "sort_order": 1
+        },
+        "image": null,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 2,
+        "slug": "mineral-water-500ml",
+        "sku": "VQ-00500",
+        "name": "آب معدنی نیم‌لیتری",
+        "short_description": "پرفروش‌ترین سایز برای مصرف روزانه و فروشگاه‌ها.",
+        "description": "<p>پرفروش‌ترین سایز برای مصرف روزانه و فروشگاه‌ها.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+        "volume_ml": 500,
+        "size_class": "small",
+        "bottle_material": "PET",
+        "units_per_pack": 12,
+        "packs_per_pallet": 120,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "حجم",
+            "value": "500 ml"
+          },
+          {
+            "label": "جنس بطری",
+            "value": "PET گرید غذایی"
+          },
+          {
+            "label": "درب",
+            "value": "پلمب‌دار با حلقه ضمانت"
+          },
+          {
+            "label": "نوع بسته‌بندی",
+            "value": "شیرینک"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#13A8CE",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "آب معدنی طبیعی",
+          "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+          "sort_order": 1
+        },
+        "image": null,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T18:04:44+00:00"
+      },
+      {
+        "id": 3,
+        "slug": "mineral-water-1500ml",
+        "sku": "VQ-01500",
+        "name": "آب معدنی ۱.۵ لیتری",
+        "short_description": "سایز خانواده؛ مناسب سفره و مصرف خانگی.",
+        "description": "<p>سایز خانواده؛ مناسب سفره و مصرف خانگی.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+        "volume_ml": 1500,
+        "size_class": "medium",
+        "bottle_material": "PET",
+        "units_per_pack": 6,
+        "packs_per_pallet": 80,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "حجم",
+            "value": "1.5 L"
+          },
+          {
+            "label": "جنس بطری",
+            "value": "PET گرید غذایی"
+          },
+          {
+            "label": "درب",
+            "value": "پلمب‌دار با حلقه ضمانت"
+          },
+          {
+            "label": "نوع بسته‌بندی",
+            "value": "شیرینک"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#0E7FA6",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "آب معدنی طبیعی",
+          "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+          "sort_order": 1
+        },
+        "image": null,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 4,
+        "slug": "mineral-water-10l",
+        "sku": "VQ-10000",
+        "name": "آب معدنی ۱۰ لیتری",
+        "short_description": "گالن دسته‌دار برای دفاتر، کارگاه‌ها و مصرف حجیم.",
+        "description": "<p>گالن دسته‌دار برای دفاتر، کارگاه‌ها و مصرف حجیم.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+        "volume_ml": 10000,
+        "size_class": "large",
+        "bottle_material": "PET",
+        "units_per_pack": 1,
+        "packs_per_pallet": 60,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "حجم",
+            "value": "10 L"
+          },
+          {
+            "label": "جنس بطری",
+            "value": "PET گرید غذایی"
+          },
+          {
+            "label": "درب",
+            "value": "پلمب‌دار با حلقه ضمانت"
+          },
+          {
+            "label": "نوع بسته‌بندی",
+            "value": "تکی"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#073B59",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "آب معدنی طبیعی",
+          "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+          "sort_order": 1
+        },
+        "image": null,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      }
+    ],
+    "production_steps": [
+      {
+        "id": 1,
+        "key": "source",
+        "title": "منبع آب",
+        "description": "آب از منبع طبیعی محافظت‌شده و دور از آلودگی‌های شهری و صنعتی، از طریق خطوط استیل بهداشتی به کارخانه منتقل می‌شود.",
+        "icon": "droplet",
+        "image_url": null,
+        "sort_order": 1
+      },
+      {
+        "id": 2,
+        "key": "filtration",
+        "title": "تصفیه و فیلتراسیون",
+        "description": "فیلتراسیون چندمرحله‌ای شنی، کربنی و میکرونی، ذرات معلق را بدون تغییر ترکیب معدنی طبیعی آب حذف می‌کند.",
+        "icon": "filter",
+        "image_url": null,
+        "sort_order": 2
+      },
+      {
+        "id": 3,
+        "key": "disinfection",
+        "title": "گندزدایی",
+        "description": "گندزدایی با پرتو فرابنفش و ازن، بدون استفاده از کلر و مواد شیمیایی.",
+        "icon": "sun",
+        "image_url": null,
+        "sort_order": 3
+      },
+      {
+        "id": 4,
+        "key": "laboratory",
+        "title": "آزمایشگاه",
+        "description": "نمونه‌برداری مستمر و آزمایش‌های فیزیکوشیمیایی و میکروبی در آزمایشگاه کنترل کیفیت کارخانه.",
+        "icon": "flask",
+        "image_url": null,
+        "sort_order": 4
+      },
+      {
+        "id": 5,
+        "key": "filling",
+        "title": "خط پرکنی",
+        "description": "شست‌وشو، پرکنی و درب‌بندی در یک مونوبلوک تمام‌اتوماتیک و در اتاق تمیز، بدون تماس دست.",
+        "icon": "bottle",
+        "image_url": null,
+        "sort_order": 5
+      },
+      {
+        "id": 6,
+        "key": "labeling",
+        "title": "لیبل‌زنی و کدگذاری",
+        "description": "لیبل‌زنی دقیق و چاپ تاریخ تولید، انقضا و شماره بچ برای ردیابی کامل هر بطری.",
+        "icon": "tag",
+        "image_url": null,
+        "sort_order": 6
+      },
+      {
+        "id": 7,
+        "key": "packaging",
+        "title": "بسته‌بندی",
+        "description": "شیرینک، پالت‌بندی و استرچ اتوماتیک برای حمل‌ونقل ایمن تا دست مشتری.",
+        "icon": "package",
+        "image_url": null,
+        "sort_order": 7
+      },
+      {
+        "id": 8,
+        "key": "quality",
+        "title": "کنترل کیفیت نهایی",
+        "description": "هر بچ تولید پیش از خروج از کارخانه بازرسی و نمونه شاهد آن نگهداری می‌شود.",
+        "icon": "shield-check",
+        "image_url": null,
+        "sort_order": 8
+      }
+    ],
+    "certificates": [
+      {
+        "id": 1,
+        "type": "certificate",
+        "title": "پروانه ساخت سازمان غذا و دارو",
+        "issuer": "سازمان غذا و دارو",
+        "description": "تصویر و فایل رسمی این مدرک را از پنل مدیریت بارگذاری کنید.",
+        "certificate_number": null,
+        "issued_at": null,
+        "expires_at": null,
+        "is_expired": false,
+        "image_url": null,
+        "file_url": null,
+        "sort_order": 1
+      },
+      {
+        "id": 2,
+        "type": "standard",
+        "title": "نشان استاندارد ملی ایران",
+        "issuer": "سازمان ملی استاندارد ایران",
+        "description": "تصویر و فایل رسمی این مدرک را از پنل مدیریت بارگذاری کنید.",
+        "certificate_number": null,
+        "issued_at": null,
+        "expires_at": null,
+        "is_expired": false,
+        "image_url": null,
+        "file_url": null,
+        "sort_order": 2
+      },
+      {
+        "id": 3,
+        "type": "certificate",
+        "title": "سیستم مدیریت ایمنی مواد غذایی ISO 22000",
+        "issuer": "نهاد گواهی‌دهنده",
+        "description": "تصویر و فایل رسمی این مدرک را از پنل مدیریت بارگذاری کنید.",
+        "certificate_number": null,
+        "issued_at": null,
+        "expires_at": null,
+        "is_expired": false,
+        "image_url": null,
+        "file_url": null,
+        "sort_order": 3
+      },
+      {
+        "id": 4,
+        "type": "certificate",
+        "title": "سیستم تحلیل خطر و نقاط کنترل بحرانی HACCP",
+        "issuer": "نهاد گواهی‌دهنده",
+        "description": "تصویر و فایل رسمی این مدرک را از پنل مدیریت بارگذاری کنید.",
+        "certificate_number": null,
+        "issued_at": null,
+        "expires_at": null,
+        "is_expired": false,
+        "image_url": null,
+        "file_url": null,
+        "sort_order": 4
+      }
+    ],
+    "articles": [
+      {
+        "id": 3,
+        "slug": "website-launch",
+        "type": "news",
+        "title": "راه‌اندازی وب‌سایت جدید کارخانه",
+        "excerpt": "وب‌سایت جدید با امکان ثبت آنلاین درخواست نمایندگی و دسترسی به گواهینامه‌ها راه‌اندازی شد.",
+        "cover_url": null,
+        "published_at": "2026-11-17T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 1,
+        "slug": "how-to-read-mineral-water-label",
+        "type": "article",
+        "title": "چگونه برچسب آب معدنی را بخوانیم؟",
+        "excerpt": "TDS، pH و ترکیب املاح روی برچسب چه معنایی دارند و چطور آب مناسب خود را انتخاب کنیم؟",
+        "cover_url": null,
+        "published_at": "2026-11-15T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 2,
+        "slug": "hydration-at-work",
+        "type": "article",
+        "title": "آب و بهره‌وری در محیط کار",
+        "excerpt": "چرا سازمان‌ها باید دسترسی آسان به آب آشامیدنی سالم را برای کارکنان فراهم کنند؟",
+        "cover_url": null,
+        "published_at": "2026-11-08T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      }
+    ]
+  },
+  "settings": {
+    "site": {
+      "name": "ویتا کوئین",
+      "legal_name": "شرکت تولیدی آب معدنی ویتا کوئین",
+      "tagline": "طبیعت در خالص‌ترین شکل خود",
+      "description": "تولیدکننده آب معدنی طبیعی با خطوط تمام‌اتوماتیک، آزمایشگاه کنترل کیفیت و شبکه توزیع سراسری."
+    },
+    "hero": {
+      "title": "طبیعت در خالص‌ترین شکل خود",
+      "subtitle": "آب معدنی طبیعی، برگرفته از دل طبیعت و تولیدشده با فناوری روز برای زندگی سالم‌تر.",
+      "video_url": null,
+      "poster_url": null
+    },
+    "stats": [
+      {
+        "key": "production_lines",
+        "value": 2,
+        "suffix": null,
+        "label": "خط تولید فعال"
+      },
+      {
+        "key": "products",
+        "value": 5,
+        "suffix": null,
+        "label": "محصول"
+      }
+    ],
+    "contact": {
+      "phone": "+98 21 0000 0000",
+      "sales_phone": "+98 912 000 0000",
+      "email": "info@example.com",
+      "sales_email": "sales@example.com",
+      "address": "نشانی کارخانه را از پنل مدیریت وارد کنید",
+      "working_hours": "شنبه تا چهارشنبه ۸ تا ۱۶ — پنجشنبه ۸ تا ۱۲",
+      "map": {
+        "lat": 35.6892,
+        "lng": 51.389,
+        "zoom": 13
+      }
+    },
+    "social": {
+      "instagram": null,
+      "linkedin": null,
+      "telegram": null,
+      "whatsapp": null,
+      "aparat": null
+    },
+    "seo": {
+      "title_suffix": "ویتا کوئین",
+      "keywords": "آب معدنی, تولید آب معدنی, نمایندگی آب معدنی, پخش عمده آب"
+    }
+  },
+  "categories": [
+    {
+      "id": 1,
+      "slug": "natural-mineral-water",
+      "name": "آب معدنی طبیعی",
+      "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+      "sort_order": 1,
+      "products_count": 4
+    },
+    {
+      "id": 2,
+      "slug": "special-products",
+      "name": "محصولات ویژه",
+      "description": "محصولات با بسته‌بندی شیشه‌ای و سفارشی برای هتل‌ها، رستوران‌ها و رویدادها.",
+      "sort_order": 2,
+      "products_count": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "slug": "mineral-water-330ml",
+      "sku": "VQ-00330",
+      "name": "آب معدنی ۳۳۰ میلی‌لیتری",
+      "short_description": "بطری کوچک و سبک؛ مناسب پذیرایی، جلسات و همراه.",
+      "description": "<p>بطری کوچک و سبک؛ مناسب پذیرایی، جلسات و همراه.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+      "volume_ml": 330,
+      "size_class": "small",
+      "bottle_material": "PET",
+      "units_per_pack": 24,
+      "packs_per_pallet": 84,
+      "shelf_life_months": 12,
+      "ph": null,
+      "tds": null,
+      "mineral_composition": [],
+      "specs": [
+        {
+          "label": "حجم",
+          "value": "330 ml"
+        },
+        {
+          "label": "جنس بطری",
+          "value": "PET گرید غذایی"
+        },
+        {
+          "label": "درب",
+          "value": "پلمب‌دار با حلقه ضمانت"
+        },
+        {
+          "label": "نوع بسته‌بندی",
+          "value": "شیرینک"
+        }
+      ],
+      "barcode": null,
+      "accent_color": "#13A8CE",
+      "is_featured": true,
+      "category": {
+        "id": 1,
+        "slug": "natural-mineral-water",
+        "name": "آب معدنی طبیعی",
+        "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+        "sort_order": 1
+      },
+      "image": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    },
+    {
+      "id": 2,
+      "slug": "mineral-water-500ml",
+      "sku": "VQ-00500",
+      "name": "آب معدنی نیم‌لیتری",
+      "short_description": "پرفروش‌ترین سایز برای مصرف روزانه و فروشگاه‌ها.",
+      "description": "<p>پرفروش‌ترین سایز برای مصرف روزانه و فروشگاه‌ها.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+      "volume_ml": 500,
+      "size_class": "small",
+      "bottle_material": "PET",
+      "units_per_pack": 12,
+      "packs_per_pallet": 120,
+      "shelf_life_months": 12,
+      "ph": null,
+      "tds": null,
+      "mineral_composition": [],
+      "specs": [
+        {
+          "label": "حجم",
+          "value": "500 ml"
+        },
+        {
+          "label": "جنس بطری",
+          "value": "PET گرید غذایی"
+        },
+        {
+          "label": "درب",
+          "value": "پلمب‌دار با حلقه ضمانت"
+        },
+        {
+          "label": "نوع بسته‌بندی",
+          "value": "شیرینک"
+        }
+      ],
+      "barcode": null,
+      "accent_color": "#13A8CE",
+      "is_featured": true,
+      "category": {
+        "id": 1,
+        "slug": "natural-mineral-water",
+        "name": "آب معدنی طبیعی",
+        "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+        "sort_order": 1
+      },
+      "image": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T18:04:44+00:00"
+    },
+    {
+      "id": 3,
+      "slug": "mineral-water-1500ml",
+      "sku": "VQ-01500",
+      "name": "آب معدنی ۱.۵ لیتری",
+      "short_description": "سایز خانواده؛ مناسب سفره و مصرف خانگی.",
+      "description": "<p>سایز خانواده؛ مناسب سفره و مصرف خانگی.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+      "volume_ml": 1500,
+      "size_class": "medium",
+      "bottle_material": "PET",
+      "units_per_pack": 6,
+      "packs_per_pallet": 80,
+      "shelf_life_months": 12,
+      "ph": null,
+      "tds": null,
+      "mineral_composition": [],
+      "specs": [
+        {
+          "label": "حجم",
+          "value": "1.5 L"
+        },
+        {
+          "label": "جنس بطری",
+          "value": "PET گرید غذایی"
+        },
+        {
+          "label": "درب",
+          "value": "پلمب‌دار با حلقه ضمانت"
+        },
+        {
+          "label": "نوع بسته‌بندی",
+          "value": "شیرینک"
+        }
+      ],
+      "barcode": null,
+      "accent_color": "#0E7FA6",
+      "is_featured": true,
+      "category": {
+        "id": 1,
+        "slug": "natural-mineral-water",
+        "name": "آب معدنی طبیعی",
+        "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+        "sort_order": 1
+      },
+      "image": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    },
+    {
+      "id": 4,
+      "slug": "mineral-water-10l",
+      "sku": "VQ-10000",
+      "name": "آب معدنی ۱۰ لیتری",
+      "short_description": "گالن دسته‌دار برای دفاتر، کارگاه‌ها و مصرف حجیم.",
+      "description": "<p>گالن دسته‌دار برای دفاتر، کارگاه‌ها و مصرف حجیم.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+      "volume_ml": 10000,
+      "size_class": "large",
+      "bottle_material": "PET",
+      "units_per_pack": 1,
+      "packs_per_pallet": 60,
+      "shelf_life_months": 12,
+      "ph": null,
+      "tds": null,
+      "mineral_composition": [],
+      "specs": [
+        {
+          "label": "حجم",
+          "value": "10 L"
+        },
+        {
+          "label": "جنس بطری",
+          "value": "PET گرید غذایی"
+        },
+        {
+          "label": "درب",
+          "value": "پلمب‌دار با حلقه ضمانت"
+        },
+        {
+          "label": "نوع بسته‌بندی",
+          "value": "تکی"
+        }
+      ],
+      "barcode": null,
+      "accent_color": "#073B59",
+      "is_featured": true,
+      "category": {
+        "id": 1,
+        "slug": "natural-mineral-water",
+        "name": "آب معدنی طبیعی",
+        "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+        "sort_order": 1
+      },
+      "image": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    },
+    {
+      "id": 5,
+      "slug": "premium-glass-750ml",
+      "sku": "VQ-00750-G",
+      "name": "آب معدنی پریمیوم بطری شیشه‌ای ۷۵۰",
+      "short_description": "بطری شیشه‌ای برای هتل‌ها و رستوران‌های لوکس.",
+      "description": "<p>بطری شیشه‌ای برای هتل‌ها و رستوران‌های لوکس.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+      "volume_ml": 750,
+      "size_class": "medium",
+      "bottle_material": "Glass",
+      "units_per_pack": 12,
+      "packs_per_pallet": 50,
+      "shelf_life_months": 24,
+      "ph": null,
+      "tds": null,
+      "mineral_composition": [],
+      "specs": [
+        {
+          "label": "حجم",
+          "value": "750 ml"
+        },
+        {
+          "label": "جنس بطری",
+          "value": "شیشه"
+        },
+        {
+          "label": "درب",
+          "value": "پلمب‌دار با حلقه ضمانت"
+        },
+        {
+          "label": "نوع بسته‌بندی",
+          "value": "شیرینک"
+        }
+      ],
+      "barcode": null,
+      "accent_color": "#8DD9E9",
+      "is_featured": false,
+      "category": {
+        "id": 2,
+        "slug": "special-products",
+        "name": "محصولات ویژه",
+        "description": "محصولات با بسته‌بندی شیشه‌ای و سفارشی برای هتل‌ها، رستوران‌ها و رویدادها.",
+        "sort_order": 2
+      },
+      "image": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    }
+  ],
+  "productDetails": {
+    "mineral-water-330ml": {
+      "data": {
+        "id": 1,
+        "slug": "mineral-water-330ml",
+        "sku": "VQ-00330",
+        "name": "آب معدنی ۳۳۰ میلی‌لیتری",
+        "short_description": "بطری کوچک و سبک؛ مناسب پذیرایی، جلسات و همراه.",
+        "description": "<p>بطری کوچک و سبک؛ مناسب پذیرایی، جلسات و همراه.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+        "volume_ml": 330,
+        "size_class": "small",
+        "bottle_material": "PET",
+        "units_per_pack": 24,
+        "packs_per_pallet": 84,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "حجم",
+            "value": "330 ml"
+          },
+          {
+            "label": "جنس بطری",
+            "value": "PET گرید غذایی"
+          },
+          {
+            "label": "درب",
+            "value": "پلمب‌دار با حلقه ضمانت"
+          },
+          {
+            "label": "نوع بسته‌بندی",
+            "value": "شیرینک"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#13A8CE",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "آب معدنی طبیعی",
+          "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+          "sort_order": 1
+        },
+        "image": null,
+        "images": [],
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": [
+        {
+          "id": 2,
+          "slug": "mineral-water-500ml",
+          "sku": "VQ-00500",
+          "name": "آب معدنی نیم‌لیتری",
+          "short_description": "پرفروش‌ترین سایز برای مصرف روزانه و فروشگاه‌ها.",
+          "description": "<p>پرفروش‌ترین سایز برای مصرف روزانه و فروشگاه‌ها.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+          "volume_ml": 500,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 12,
+          "packs_per_pallet": 120,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "حجم",
+              "value": "500 ml"
+            },
+            {
+              "label": "جنس بطری",
+              "value": "PET گرید غذایی"
+            },
+            {
+              "label": "درب",
+              "value": "پلمب‌دار با حلقه ضمانت"
+            },
+            {
+              "label": "نوع بسته‌بندی",
+              "value": "شیرینک"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "آب معدنی طبیعی",
+            "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T18:04:44+00:00"
+        },
+        {
+          "id": 3,
+          "slug": "mineral-water-1500ml",
+          "sku": "VQ-01500",
+          "name": "آب معدنی ۱.۵ لیتری",
+          "short_description": "سایز خانواده؛ مناسب سفره و مصرف خانگی.",
+          "description": "<p>سایز خانواده؛ مناسب سفره و مصرف خانگی.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+          "volume_ml": 1500,
+          "size_class": "medium",
+          "bottle_material": "PET",
+          "units_per_pack": 6,
+          "packs_per_pallet": 80,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "حجم",
+              "value": "1.5 L"
+            },
+            {
+              "label": "جنس بطری",
+              "value": "PET گرید غذایی"
+            },
+            {
+              "label": "درب",
+              "value": "پلمب‌دار با حلقه ضمانت"
+            },
+            {
+              "label": "نوع بسته‌بندی",
+              "value": "شیرینک"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#0E7FA6",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "آب معدنی طبیعی",
+            "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        },
+        {
+          "id": 4,
+          "slug": "mineral-water-10l",
+          "sku": "VQ-10000",
+          "name": "آب معدنی ۱۰ لیتری",
+          "short_description": "گالن دسته‌دار برای دفاتر، کارگاه‌ها و مصرف حجیم.",
+          "description": "<p>گالن دسته‌دار برای دفاتر، کارگاه‌ها و مصرف حجیم.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+          "volume_ml": 10000,
+          "size_class": "large",
+          "bottle_material": "PET",
+          "units_per_pack": 1,
+          "packs_per_pallet": 60,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "حجم",
+              "value": "10 L"
+            },
+            {
+              "label": "جنس بطری",
+              "value": "PET گرید غذایی"
+            },
+            {
+              "label": "درب",
+              "value": "پلمب‌دار با حلقه ضمانت"
+            },
+            {
+              "label": "نوع بسته‌بندی",
+              "value": "تکی"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#073B59",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "آب معدنی طبیعی",
+            "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    },
+    "mineral-water-500ml": {
+      "data": {
+        "id": 2,
+        "slug": "mineral-water-500ml",
+        "sku": "VQ-00500",
+        "name": "آب معدنی نیم‌لیتری",
+        "short_description": "پرفروش‌ترین سایز برای مصرف روزانه و فروشگاه‌ها.",
+        "description": "<p>پرفروش‌ترین سایز برای مصرف روزانه و فروشگاه‌ها.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+        "volume_ml": 500,
+        "size_class": "small",
+        "bottle_material": "PET",
+        "units_per_pack": 12,
+        "packs_per_pallet": 120,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "حجم",
+            "value": "500 ml"
+          },
+          {
+            "label": "جنس بطری",
+            "value": "PET گرید غذایی"
+          },
+          {
+            "label": "درب",
+            "value": "پلمب‌دار با حلقه ضمانت"
+          },
+          {
+            "label": "نوع بسته‌بندی",
+            "value": "شیرینک"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#13A8CE",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "آب معدنی طبیعی",
+          "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+          "sort_order": 1
+        },
+        "image": null,
+        "images": [],
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T18:04:44+00:00"
+      },
+      "related": [
+        {
+          "id": 1,
+          "slug": "mineral-water-330ml",
+          "sku": "VQ-00330",
+          "name": "آب معدنی ۳۳۰ میلی‌لیتری",
+          "short_description": "بطری کوچک و سبک؛ مناسب پذیرایی، جلسات و همراه.",
+          "description": "<p>بطری کوچک و سبک؛ مناسب پذیرایی، جلسات و همراه.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+          "volume_ml": 330,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 24,
+          "packs_per_pallet": 84,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "حجم",
+              "value": "330 ml"
+            },
+            {
+              "label": "جنس بطری",
+              "value": "PET گرید غذایی"
+            },
+            {
+              "label": "درب",
+              "value": "پلمب‌دار با حلقه ضمانت"
+            },
+            {
+              "label": "نوع بسته‌بندی",
+              "value": "شیرینک"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "آب معدنی طبیعی",
+            "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        },
+        {
+          "id": 3,
+          "slug": "mineral-water-1500ml",
+          "sku": "VQ-01500",
+          "name": "آب معدنی ۱.۵ لیتری",
+          "short_description": "سایز خانواده؛ مناسب سفره و مصرف خانگی.",
+          "description": "<p>سایز خانواده؛ مناسب سفره و مصرف خانگی.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+          "volume_ml": 1500,
+          "size_class": "medium",
+          "bottle_material": "PET",
+          "units_per_pack": 6,
+          "packs_per_pallet": 80,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "حجم",
+              "value": "1.5 L"
+            },
+            {
+              "label": "جنس بطری",
+              "value": "PET گرید غذایی"
+            },
+            {
+              "label": "درب",
+              "value": "پلمب‌دار با حلقه ضمانت"
+            },
+            {
+              "label": "نوع بسته‌بندی",
+              "value": "شیرینک"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#0E7FA6",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "آب معدنی طبیعی",
+            "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        },
+        {
+          "id": 4,
+          "slug": "mineral-water-10l",
+          "sku": "VQ-10000",
+          "name": "آب معدنی ۱۰ لیتری",
+          "short_description": "گالن دسته‌دار برای دفاتر، کارگاه‌ها و مصرف حجیم.",
+          "description": "<p>گالن دسته‌دار برای دفاتر، کارگاه‌ها و مصرف حجیم.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+          "volume_ml": 10000,
+          "size_class": "large",
+          "bottle_material": "PET",
+          "units_per_pack": 1,
+          "packs_per_pallet": 60,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "حجم",
+              "value": "10 L"
+            },
+            {
+              "label": "جنس بطری",
+              "value": "PET گرید غذایی"
+            },
+            {
+              "label": "درب",
+              "value": "پلمب‌دار با حلقه ضمانت"
+            },
+            {
+              "label": "نوع بسته‌بندی",
+              "value": "تکی"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#073B59",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "آب معدنی طبیعی",
+            "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    },
+    "mineral-water-1500ml": {
+      "data": {
+        "id": 3,
+        "slug": "mineral-water-1500ml",
+        "sku": "VQ-01500",
+        "name": "آب معدنی ۱.۵ لیتری",
+        "short_description": "سایز خانواده؛ مناسب سفره و مصرف خانگی.",
+        "description": "<p>سایز خانواده؛ مناسب سفره و مصرف خانگی.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+        "volume_ml": 1500,
+        "size_class": "medium",
+        "bottle_material": "PET",
+        "units_per_pack": 6,
+        "packs_per_pallet": 80,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "حجم",
+            "value": "1.5 L"
+          },
+          {
+            "label": "جنس بطری",
+            "value": "PET گرید غذایی"
+          },
+          {
+            "label": "درب",
+            "value": "پلمب‌دار با حلقه ضمانت"
+          },
+          {
+            "label": "نوع بسته‌بندی",
+            "value": "شیرینک"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#0E7FA6",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "آب معدنی طبیعی",
+          "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+          "sort_order": 1
+        },
+        "image": null,
+        "images": [],
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": [
+        {
+          "id": 1,
+          "slug": "mineral-water-330ml",
+          "sku": "VQ-00330",
+          "name": "آب معدنی ۳۳۰ میلی‌لیتری",
+          "short_description": "بطری کوچک و سبک؛ مناسب پذیرایی، جلسات و همراه.",
+          "description": "<p>بطری کوچک و سبک؛ مناسب پذیرایی، جلسات و همراه.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+          "volume_ml": 330,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 24,
+          "packs_per_pallet": 84,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "حجم",
+              "value": "330 ml"
+            },
+            {
+              "label": "جنس بطری",
+              "value": "PET گرید غذایی"
+            },
+            {
+              "label": "درب",
+              "value": "پلمب‌دار با حلقه ضمانت"
+            },
+            {
+              "label": "نوع بسته‌بندی",
+              "value": "شیرینک"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "آب معدنی طبیعی",
+            "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        },
+        {
+          "id": 2,
+          "slug": "mineral-water-500ml",
+          "sku": "VQ-00500",
+          "name": "آب معدنی نیم‌لیتری",
+          "short_description": "پرفروش‌ترین سایز برای مصرف روزانه و فروشگاه‌ها.",
+          "description": "<p>پرفروش‌ترین سایز برای مصرف روزانه و فروشگاه‌ها.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+          "volume_ml": 500,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 12,
+          "packs_per_pallet": 120,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "حجم",
+              "value": "500 ml"
+            },
+            {
+              "label": "جنس بطری",
+              "value": "PET گرید غذایی"
+            },
+            {
+              "label": "درب",
+              "value": "پلمب‌دار با حلقه ضمانت"
+            },
+            {
+              "label": "نوع بسته‌بندی",
+              "value": "شیرینک"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "آب معدنی طبیعی",
+            "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T18:04:44+00:00"
+        },
+        {
+          "id": 4,
+          "slug": "mineral-water-10l",
+          "sku": "VQ-10000",
+          "name": "آب معدنی ۱۰ لیتری",
+          "short_description": "گالن دسته‌دار برای دفاتر، کارگاه‌ها و مصرف حجیم.",
+          "description": "<p>گالن دسته‌دار برای دفاتر، کارگاه‌ها و مصرف حجیم.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+          "volume_ml": 10000,
+          "size_class": "large",
+          "bottle_material": "PET",
+          "units_per_pack": 1,
+          "packs_per_pallet": 60,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "حجم",
+              "value": "10 L"
+            },
+            {
+              "label": "جنس بطری",
+              "value": "PET گرید غذایی"
+            },
+            {
+              "label": "درب",
+              "value": "پلمب‌دار با حلقه ضمانت"
+            },
+            {
+              "label": "نوع بسته‌بندی",
+              "value": "تکی"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#073B59",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "آب معدنی طبیعی",
+            "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    },
+    "mineral-water-10l": {
+      "data": {
+        "id": 4,
+        "slug": "mineral-water-10l",
+        "sku": "VQ-10000",
+        "name": "آب معدنی ۱۰ لیتری",
+        "short_description": "گالن دسته‌دار برای دفاتر، کارگاه‌ها و مصرف حجیم.",
+        "description": "<p>گالن دسته‌دار برای دفاتر، کارگاه‌ها و مصرف حجیم.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+        "volume_ml": 10000,
+        "size_class": "large",
+        "bottle_material": "PET",
+        "units_per_pack": 1,
+        "packs_per_pallet": 60,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "حجم",
+            "value": "10 L"
+          },
+          {
+            "label": "جنس بطری",
+            "value": "PET گرید غذایی"
+          },
+          {
+            "label": "درب",
+            "value": "پلمب‌دار با حلقه ضمانت"
+          },
+          {
+            "label": "نوع بسته‌بندی",
+            "value": "تکی"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#073B59",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "آب معدنی طبیعی",
+          "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+          "sort_order": 1
+        },
+        "image": null,
+        "images": [],
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": [
+        {
+          "id": 1,
+          "slug": "mineral-water-330ml",
+          "sku": "VQ-00330",
+          "name": "آب معدنی ۳۳۰ میلی‌لیتری",
+          "short_description": "بطری کوچک و سبک؛ مناسب پذیرایی، جلسات و همراه.",
+          "description": "<p>بطری کوچک و سبک؛ مناسب پذیرایی، جلسات و همراه.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+          "volume_ml": 330,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 24,
+          "packs_per_pallet": 84,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "حجم",
+              "value": "330 ml"
+            },
+            {
+              "label": "جنس بطری",
+              "value": "PET گرید غذایی"
+            },
+            {
+              "label": "درب",
+              "value": "پلمب‌دار با حلقه ضمانت"
+            },
+            {
+              "label": "نوع بسته‌بندی",
+              "value": "شیرینک"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "آب معدنی طبیعی",
+            "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        },
+        {
+          "id": 2,
+          "slug": "mineral-water-500ml",
+          "sku": "VQ-00500",
+          "name": "آب معدنی نیم‌لیتری",
+          "short_description": "پرفروش‌ترین سایز برای مصرف روزانه و فروشگاه‌ها.",
+          "description": "<p>پرفروش‌ترین سایز برای مصرف روزانه و فروشگاه‌ها.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+          "volume_ml": 500,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 12,
+          "packs_per_pallet": 120,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "حجم",
+              "value": "500 ml"
+            },
+            {
+              "label": "جنس بطری",
+              "value": "PET گرید غذایی"
+            },
+            {
+              "label": "درب",
+              "value": "پلمب‌دار با حلقه ضمانت"
+            },
+            {
+              "label": "نوع بسته‌بندی",
+              "value": "شیرینک"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "آب معدنی طبیعی",
+            "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T18:04:44+00:00"
+        },
+        {
+          "id": 3,
+          "slug": "mineral-water-1500ml",
+          "sku": "VQ-01500",
+          "name": "آب معدنی ۱.۵ لیتری",
+          "short_description": "سایز خانواده؛ مناسب سفره و مصرف خانگی.",
+          "description": "<p>سایز خانواده؛ مناسب سفره و مصرف خانگی.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+          "volume_ml": 1500,
+          "size_class": "medium",
+          "bottle_material": "PET",
+          "units_per_pack": 6,
+          "packs_per_pallet": 80,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "حجم",
+              "value": "1.5 L"
+            },
+            {
+              "label": "جنس بطری",
+              "value": "PET گرید غذایی"
+            },
+            {
+              "label": "درب",
+              "value": "پلمب‌دار با حلقه ضمانت"
+            },
+            {
+              "label": "نوع بسته‌بندی",
+              "value": "شیرینک"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#0E7FA6",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "آب معدنی طبیعی",
+            "description": "بطری‌های کوچک، متوسط و بزرگ برای مصرف روزانه، خانواده و سازمان‌ها.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    },
+    "premium-glass-750ml": {
+      "data": {
+        "id": 5,
+        "slug": "premium-glass-750ml",
+        "sku": "VQ-00750-G",
+        "name": "آب معدنی پریمیوم بطری شیشه‌ای ۷۵۰",
+        "short_description": "بطری شیشه‌ای برای هتل‌ها و رستوران‌های لوکس.",
+        "description": "<p>بطری شیشه‌ای برای هتل‌ها و رستوران‌های لوکس.</p><p>این محصول از منبع طبیعی کارخانه برداشت شده و پس از فیلتراسیون چندمرحله‌ای و کنترل کیفیت آزمایشگاهی، در محیطی کاملاً بهداشتی و بدون دخالت دست بطری‌گیری می‌شود.</p>",
+        "volume_ml": 750,
+        "size_class": "medium",
+        "bottle_material": "Glass",
+        "units_per_pack": 12,
+        "packs_per_pallet": 50,
+        "shelf_life_months": 24,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "حجم",
+            "value": "750 ml"
+          },
+          {
+            "label": "جنس بطری",
+            "value": "شیشه"
+          },
+          {
+            "label": "درب",
+            "value": "پلمب‌دار با حلقه ضمانت"
+          },
+          {
+            "label": "نوع بسته‌بندی",
+            "value": "شیرینک"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#8DD9E9",
+        "is_featured": false,
+        "category": {
+          "id": 2,
+          "slug": "special-products",
+          "name": "محصولات ویژه",
+          "description": "محصولات با بسته‌بندی شیشه‌ای و سفارشی برای هتل‌ها، رستوران‌ها و رویدادها.",
+          "sort_order": 2
+        },
+        "image": null,
+        "images": [],
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": []
+    }
+  },
+  "articles": {
+    "data": [
+      {
+        "id": 3,
+        "slug": "website-launch",
+        "type": "news",
+        "title": "راه‌اندازی وب‌سایت جدید کارخانه",
+        "excerpt": "وب‌سایت جدید با امکان ثبت آنلاین درخواست نمایندگی و دسترسی به گواهینامه‌ها راه‌اندازی شد.",
+        "cover_url": null,
+        "published_at": "2026-11-17T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 1,
+        "slug": "how-to-read-mineral-water-label",
+        "type": "article",
+        "title": "چگونه برچسب آب معدنی را بخوانیم؟",
+        "excerpt": "TDS، pH و ترکیب املاح روی برچسب چه معنایی دارند و چطور آب مناسب خود را انتخاب کنیم؟",
+        "cover_url": null,
+        "published_at": "2026-11-15T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 2,
+        "slug": "hydration-at-work",
+        "type": "article",
+        "title": "آب و بهره‌وری در محیط کار",
+        "excerpt": "چرا سازمان‌ها باید دسترسی آسان به آب آشامیدنی سالم را برای کارکنان فراهم کنند؟",
+        "cover_url": null,
+        "published_at": "2026-11-08T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      }
+    ],
+    "meta": {
+      "current_page": 1,
+      "last_page": 1,
+      "per_page": 9,
+      "total": 3
+    }
+  },
+  "articleDetails": {
+    "website-launch": {
+      "data": {
+        "id": 3,
+        "slug": "website-launch",
+        "type": "news",
+        "title": "راه‌اندازی وب‌سایت جدید کارخانه",
+        "excerpt": "وب‌سایت جدید با امکان ثبت آنلاین درخواست نمایندگی و دسترسی به گواهینامه‌ها راه‌اندازی شد.",
+        "body": "<p>از این پس نمایندگان، پخش‌کنندگان و مشتریان سازمانی می‌توانند درخواست همکاری خود را به‌صورت آنلاین ثبت کرده و وضعیت کیفیت محصولات را مشاهده کنند.</p>",
+        "cover_url": null,
+        "author": null,
+        "published_at": "2026-11-17T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": []
+    },
+    "how-to-read-mineral-water-label": {
+      "data": {
+        "id": 1,
+        "slug": "how-to-read-mineral-water-label",
+        "type": "article",
+        "title": "چگونه برچسب آب معدنی را بخوانیم؟",
+        "excerpt": "TDS، pH و ترکیب املاح روی برچسب چه معنایی دارند و چطور آب مناسب خود را انتخاب کنیم؟",
+        "body": "<h2>TDS چیست؟</h2><p>مجموع مواد جامد محلول (TDS) نشان‌دهنده مقدار کل املاح حل‌شده در آب است و بر حسب میلی‌گرم در لیتر بیان می‌شود.</p><h2>pH</h2><p>pH میزان اسیدی یا قلیایی بودن آب را نشان می‌دهد. آب آشامیدنی معمولاً در محدوده نزدیک به خنثی قرار دارد.</p><h2>ترکیب املاح</h2><p>کلسیم، منیزیم، سدیم و بی‌کربنات از مهم‌ترین املاح آب معدنی هستند که طعم و ویژگی آب را تعیین می‌کنند.</p>",
+        "cover_url": null,
+        "author": null,
+        "published_at": "2026-11-15T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": [
+        {
+          "id": 2,
+          "slug": "hydration-at-work",
+          "type": "article",
+          "title": "آب و بهره‌وری در محیط کار",
+          "excerpt": "چرا سازمان‌ها باید دسترسی آسان به آب آشامیدنی سالم را برای کارکنان فراهم کنند؟",
+          "cover_url": null,
+          "published_at": "2026-11-08T17:38:19+00:00",
+          "reading_minutes": 1,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    },
+    "hydration-at-work": {
+      "data": {
+        "id": 2,
+        "slug": "hydration-at-work",
+        "type": "article",
+        "title": "آب و بهره‌وری در محیط کار",
+        "excerpt": "چرا سازمان‌ها باید دسترسی آسان به آب آشامیدنی سالم را برای کارکنان فراهم کنند؟",
+        "body": "<p>کم‌آبی خفیف می‌تواند بر تمرکز و انرژی اثر بگذارد. تأمین آب بسته‌بندی‌شده مطمئن برای دفاتر و کارگاه‌ها، بخشی از سلامت سازمانی است.</p>",
+        "cover_url": null,
+        "author": null,
+        "published_at": "2026-11-08T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": [
+        {
+          "id": 1,
+          "slug": "how-to-read-mineral-water-label",
+          "type": "article",
+          "title": "چگونه برچسب آب معدنی را بخوانیم؟",
+          "excerpt": "TDS، pH و ترکیب املاح روی برچسب چه معنایی دارند و چطور آب مناسب خود را انتخاب کنیم؟",
+          "cover_url": null,
+          "published_at": "2026-11-15T17:38:19+00:00",
+          "reading_minutes": 1,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    }
+  },
+  "certificates": [
+    {
+      "id": 1,
+      "type": "certificate",
+      "title": "پروانه ساخت سازمان غذا و دارو",
+      "issuer": "سازمان غذا و دارو",
+      "description": "تصویر و فایل رسمی این مدرک را از پنل مدیریت بارگذاری کنید.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 1
+    },
+    {
+      "id": 2,
+      "type": "standard",
+      "title": "نشان استاندارد ملی ایران",
+      "issuer": "سازمان ملی استاندارد ایران",
+      "description": "تصویر و فایل رسمی این مدرک را از پنل مدیریت بارگذاری کنید.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 2
+    },
+    {
+      "id": 3,
+      "type": "certificate",
+      "title": "سیستم مدیریت ایمنی مواد غذایی ISO 22000",
+      "issuer": "نهاد گواهی‌دهنده",
+      "description": "تصویر و فایل رسمی این مدرک را از پنل مدیریت بارگذاری کنید.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 3
+    },
+    {
+      "id": 4,
+      "type": "certificate",
+      "title": "سیستم تحلیل خطر و نقاط کنترل بحرانی HACCP",
+      "issuer": "نهاد گواهی‌دهنده",
+      "description": "تصویر و فایل رسمی این مدرک را از پنل مدیریت بارگذاری کنید.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 4
+    },
+    {
+      "id": 5,
+      "type": "lab_report",
+      "title": "گزارش آنالیز فیزیکوشیمیایی آب",
+      "issuer": "آزمایشگاه همکار مورد تأیید",
+      "description": "تصویر و فایل رسمی این مدرک را از پنل مدیریت بارگذاری کنید.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 5
+    },
+    {
+      "id": 6,
+      "type": "lab_report",
+      "title": "گزارش آزمون میکروبی",
+      "issuer": "آزمایشگاه کنترل کیفیت کارخانه",
+      "description": "تصویر و فایل رسمی این مدرک را از پنل مدیریت بارگذاری کنید.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 6
+    }
+  ],
+  "productionLines": [
+    {
+      "id": 1,
+      "name": "خط تولید بطری‌های کوچک و متوسط",
+      "description": "خط تمام‌اتوماتیک شامل دستگاه بادکن، مونوبلوک شست‌وشو-پرکنی-درب‌بندی، لیبل‌زن و شیرینک.",
+      "technology": "بادکن خطی، پرکنی ثقلی، لیبل‌زن رپ‌اراند",
+      "capacity_per_hour": null,
+      "bottle_sizes": [
+        330,
+        500,
+        1500
+      ],
+      "image_url": null,
+      "sort_order": 1
+    },
+    {
+      "id": 2,
+      "name": "خط تولید گالن",
+      "description": "خط مخصوص بطری‌های بزرگ برای مصرف خانوار پرجمعیت و سازمان‌ها.",
+      "technology": "پرکنی حجمی، درب‌بند نیمه‌اتوماتیک",
+      "capacity_per_hour": null,
+      "bottle_sizes": [
+        10000
+      ],
+      "image_url": null,
+      "sort_order": 2
+    }
+  ],
+  "productionSteps": [
+    {
+      "id": 1,
+      "key": "source",
+      "title": "منبع آب",
+      "description": "آب از منبع طبیعی محافظت‌شده و دور از آلودگی‌های شهری و صنعتی، از طریق خطوط استیل بهداشتی به کارخانه منتقل می‌شود.",
+      "icon": "droplet",
+      "image_url": null,
+      "sort_order": 1
+    },
+    {
+      "id": 2,
+      "key": "filtration",
+      "title": "تصفیه و فیلتراسیون",
+      "description": "فیلتراسیون چندمرحله‌ای شنی، کربنی و میکرونی، ذرات معلق را بدون تغییر ترکیب معدنی طبیعی آب حذف می‌کند.",
+      "icon": "filter",
+      "image_url": null,
+      "sort_order": 2
+    },
+    {
+      "id": 3,
+      "key": "disinfection",
+      "title": "گندزدایی",
+      "description": "گندزدایی با پرتو فرابنفش و ازن، بدون استفاده از کلر و مواد شیمیایی.",
+      "icon": "sun",
+      "image_url": null,
+      "sort_order": 3
+    },
+    {
+      "id": 4,
+      "key": "laboratory",
+      "title": "آزمایشگاه",
+      "description": "نمونه‌برداری مستمر و آزمایش‌های فیزیکوشیمیایی و میکروبی در آزمایشگاه کنترل کیفیت کارخانه.",
+      "icon": "flask",
+      "image_url": null,
+      "sort_order": 4
+    },
+    {
+      "id": 5,
+      "key": "filling",
+      "title": "خط پرکنی",
+      "description": "شست‌وشو، پرکنی و درب‌بندی در یک مونوبلوک تمام‌اتوماتیک و در اتاق تمیز، بدون تماس دست.",
+      "icon": "bottle",
+      "image_url": null,
+      "sort_order": 5
+    },
+    {
+      "id": 6,
+      "key": "labeling",
+      "title": "لیبل‌زنی و کدگذاری",
+      "description": "لیبل‌زنی دقیق و چاپ تاریخ تولید، انقضا و شماره بچ برای ردیابی کامل هر بطری.",
+      "icon": "tag",
+      "image_url": null,
+      "sort_order": 6
+    },
+    {
+      "id": 7,
+      "key": "packaging",
+      "title": "بسته‌بندی",
+      "description": "شیرینک، پالت‌بندی و استرچ اتوماتیک برای حمل‌ونقل ایمن تا دست مشتری.",
+      "icon": "package",
+      "image_url": null,
+      "sort_order": 7
+    },
+    {
+      "id": 8,
+      "key": "quality",
+      "title": "کنترل کیفیت نهایی",
+      "description": "هر بچ تولید پیش از خروج از کارخانه بازرسی و نمونه شاهد آن نگهداری می‌شود.",
+      "icon": "shield-check",
+      "image_url": null,
+      "sort_order": 8
+    }
+  ],
+  "pages": {
+    "about": {
+      "id": 1,
+      "slug": "about",
+      "title": "درباره کارخانه",
+      "excerpt": "ما آب را همان‌طور که طبیعت آفریده، با فناوری روز و استانداردهای سخت‌گیرانه به سفره شما می‌رسانیم.",
+      "body": "<p>متن معرفی شرکت را از پنل مدیریت ویرایش کنید: تاریخچه، مالکیت، موقعیت منبع آب و مسیر رشد کارخانه.</p>",
+      "sections": [
+        {
+          "type": "mission",
+          "title": "مأموریت",
+          "body": "تأمین آب آشامیدنی سالم، طبیعی و قابل اعتماد برای هر خانواده و سازمان."
+        },
+        {
+          "type": "vision",
+          "title": "چشم‌انداز",
+          "body": "تبدیل‌شدن به برند مرجع آب معدنی در منطقه با حضور در بازارهای صادراتی."
+        },
+        {
+          "type": "values",
+          "title": "ارزش‌ها",
+          "items": [
+            "خلوص و سلامت",
+            "شفافیت در کیفیت",
+            "مسئولیت در برابر طبیعت",
+            "همکاری بلندمدت با شرکا"
+          ]
+        },
+        {
+          "type": "timeline",
+          "title": "تاریخچه",
+          "items": []
+        },
+        {
+          "type": "infrastructure",
+          "title": "زیرساخت‌ها",
+          "items": [
+            "سالن تولید با استانداردهای بهداشتی صنایع غذایی",
+            "آزمایشگاه کنترل کیفیت فیزیکوشیمیایی و میکروبی",
+            "انبار مسقف و ناوگان توزیع",
+            "سیستم تصفیه و گندزدایی بدون مواد شیمیایی"
+          ]
+        }
+      ],
+      "cover_url": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    },
+    "export": {
+      "id": 2,
+      "slug": "export",
+      "title": "صادرات",
+      "excerpt": "آماده همکاری با واردکنندگان و توزیع‌کنندگان بین‌المللی با امکان برچسب اختصاصی و مستندات صادراتی هستیم.",
+      "body": "<p>آماده همکاری با واردکنندگان و توزیع‌کنندگان بین‌المللی با امکان برچسب اختصاصی و مستندات صادراتی هستیم.</p>",
+      "sections": [],
+      "cover_url": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    },
+    "privacy": {
+      "id": 3,
+      "slug": "privacy",
+      "title": "حریم خصوصی",
+      "excerpt": "اطلاعات ارسالی شما فقط برای پیگیری درخواست همکاری استفاده می‌شود و در اختیار شخص ثالث قرار نمی‌گیرد.",
+      "body": "<p>اطلاعات ارسالی شما فقط برای پیگیری درخواست همکاری استفاده می‌شود و در اختیار شخص ثالث قرار نمی‌گیرد.</p>",
+      "sections": [],
+      "cover_url": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    }
+  },
+  "sitemap": {
+    "products": [
+      {
+        "slug": "mineral-water-330ml",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "slug": "mineral-water-500ml",
+        "updated_at": "2026-11-18T18:04:44+00:00"
+      },
+      {
+        "slug": "mineral-water-1500ml",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "slug": "mineral-water-10l",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "slug": "premium-glass-750ml",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      }
+    ],
+    "articles": [
+      {
+        "slug": "website-launch",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "slug": "how-to-read-mineral-water-label",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "slug": "hydration-at-work",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      }
+    ]
+  }
+}

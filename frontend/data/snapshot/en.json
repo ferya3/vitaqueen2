@@ -1,0 +1,2037 @@
+{
+  "generated_at": "2026-11-18T18:07:14.371Z",
+  "home": {
+    "settings": {
+      "site": {
+        "name": "VitaQueen",
+        "legal_name": "VitaQueen Mineral Water Co.",
+        "tagline": "Nature in its purest form",
+        "description": "Natural mineral water producer with fully automated lines, an in-house QC laboratory and nationwide distribution."
+      },
+      "hero": {
+        "title": "Nature in its purest form",
+        "subtitle": "Natural mineral water drawn from the heart of nature and bottled with modern technology for a healthier life.",
+        "video_url": null,
+        "poster_url": null
+      },
+      "stats": [
+        {
+          "key": "production_lines",
+          "value": 2,
+          "suffix": null,
+          "label": "Production lines"
+        },
+        {
+          "key": "products",
+          "value": 5,
+          "suffix": null,
+          "label": "Products"
+        }
+      ],
+      "contact": {
+        "phone": "+98 21 0000 0000",
+        "sales_phone": "+98 912 000 0000",
+        "email": "info@example.com",
+        "sales_email": "sales@example.com",
+        "address": "Enter the factory address from the admin panel",
+        "working_hours": "Sat–Wed 8:00–16:00 · Thu 8:00–12:00",
+        "map": {
+          "lat": 35.6892,
+          "lng": 51.389,
+          "zoom": 13
+        }
+      },
+      "social": {
+        "instagram": null,
+        "linkedin": null,
+        "telegram": null,
+        "whatsapp": null,
+        "aparat": null
+      },
+      "seo": {
+        "title_suffix": "VitaQueen",
+        "keywords": "mineral water, bottled water manufacturer, water distributor, export"
+      }
+    },
+    "products": [
+      {
+        "id": 1,
+        "slug": "mineral-water-330ml",
+        "sku": "VQ-00330",
+        "name": "Mineral Water 330 ml",
+        "short_description": "Compact and light — ideal for meetings, hospitality and on the go.",
+        "description": "<p>Compact and light — ideal for meetings, hospitality and on the go.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+        "volume_ml": 330,
+        "size_class": "small",
+        "bottle_material": "PET",
+        "units_per_pack": 24,
+        "packs_per_pallet": 84,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "Volume",
+            "value": "330 ml"
+          },
+          {
+            "label": "Bottle material",
+            "value": "Food-grade PET"
+          },
+          {
+            "label": "Cap",
+            "value": "Tamper-evident ring"
+          },
+          {
+            "label": "Packaging",
+            "value": "Shrink-wrapped pack"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#13A8CE",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "Natural Mineral Water",
+          "description": "Small, medium and large bottles for everyday, family and corporate use.",
+          "sort_order": 1
+        },
+        "image": null,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 2,
+        "slug": "mineral-water-500ml",
+        "sku": "VQ-00500",
+        "name": "Mineral Water 500 ml",
+        "short_description": "Our best-selling everyday size for retail.",
+        "description": "<p>Our best-selling everyday size for retail.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+        "volume_ml": 500,
+        "size_class": "small",
+        "bottle_material": "PET",
+        "units_per_pack": 12,
+        "packs_per_pallet": 120,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "Volume",
+            "value": "500 ml"
+          },
+          {
+            "label": "Bottle material",
+            "value": "Food-grade PET"
+          },
+          {
+            "label": "Cap",
+            "value": "Tamper-evident ring"
+          },
+          {
+            "label": "Packaging",
+            "value": "Shrink-wrapped pack"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#13A8CE",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "Natural Mineral Water",
+          "description": "Small, medium and large bottles for everyday, family and corporate use.",
+          "sort_order": 1
+        },
+        "image": null,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T18:04:44+00:00"
+      },
+      {
+        "id": 3,
+        "slug": "mineral-water-1500ml",
+        "sku": "VQ-01500",
+        "name": "Mineral Water 1.5 L",
+        "short_description": "Family size for the dining table and home.",
+        "description": "<p>Family size for the dining table and home.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+        "volume_ml": 1500,
+        "size_class": "medium",
+        "bottle_material": "PET",
+        "units_per_pack": 6,
+        "packs_per_pallet": 80,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "Volume",
+            "value": "1.5 L"
+          },
+          {
+            "label": "Bottle material",
+            "value": "Food-grade PET"
+          },
+          {
+            "label": "Cap",
+            "value": "Tamper-evident ring"
+          },
+          {
+            "label": "Packaging",
+            "value": "Shrink-wrapped pack"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#0E7FA6",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "Natural Mineral Water",
+          "description": "Small, medium and large bottles for everyday, family and corporate use.",
+          "sort_order": 1
+        },
+        "image": null,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 4,
+        "slug": "mineral-water-10l",
+        "sku": "VQ-10000",
+        "name": "Mineral Water 10 L",
+        "short_description": "Handled jug for offices, workshops and bulk use.",
+        "description": "<p>Handled jug for offices, workshops and bulk use.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+        "volume_ml": 10000,
+        "size_class": "large",
+        "bottle_material": "PET",
+        "units_per_pack": 1,
+        "packs_per_pallet": 60,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "Volume",
+            "value": "10 L"
+          },
+          {
+            "label": "Bottle material",
+            "value": "Food-grade PET"
+          },
+          {
+            "label": "Cap",
+            "value": "Tamper-evident ring"
+          },
+          {
+            "label": "Packaging",
+            "value": "Single unit"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#073B59",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "Natural Mineral Water",
+          "description": "Small, medium and large bottles for everyday, family and corporate use.",
+          "sort_order": 1
+        },
+        "image": null,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      }
+    ],
+    "production_steps": [
+      {
+        "id": 1,
+        "key": "source",
+        "title": "Water Source",
+        "description": "Water flows from a protected natural source, far from urban and industrial pollution, through sanitary stainless-steel pipelines.",
+        "icon": "droplet",
+        "image_url": null,
+        "sort_order": 1
+      },
+      {
+        "id": 2,
+        "key": "filtration",
+        "title": "Filtration",
+        "description": "Multi-stage sand, carbon and micron filtration removes particles while preserving the natural mineral balance.",
+        "icon": "filter",
+        "image_url": null,
+        "sort_order": 2
+      },
+      {
+        "id": 3,
+        "key": "disinfection",
+        "title": "Disinfection",
+        "description": "UV and ozone disinfection — no chlorine, no chemicals.",
+        "icon": "sun",
+        "image_url": null,
+        "sort_order": 3
+      },
+      {
+        "id": 4,
+        "key": "laboratory",
+        "title": "Laboratory",
+        "description": "Continuous sampling with physicochemical and microbiological tests in our in-house QC lab.",
+        "icon": "flask",
+        "image_url": null,
+        "sort_order": 4
+      },
+      {
+        "id": 5,
+        "key": "filling",
+        "title": "Filling",
+        "description": "Rinsing, filling and capping in a fully automatic monoblock inside a clean room — untouched by hand.",
+        "icon": "bottle",
+        "image_url": null,
+        "sort_order": 5
+      },
+      {
+        "id": 6,
+        "key": "labeling",
+        "title": "Labeling & Coding",
+        "description": "Precise labeling plus production date, expiry and batch number for full traceability.",
+        "icon": "tag",
+        "image_url": null,
+        "sort_order": 6
+      },
+      {
+        "id": 7,
+        "key": "packaging",
+        "title": "Packaging",
+        "description": "Automatic shrink-wrapping, palletizing and stretch-wrapping for safe delivery.",
+        "icon": "package",
+        "image_url": null,
+        "sort_order": 7
+      },
+      {
+        "id": 8,
+        "key": "quality",
+        "title": "Final Quality Control",
+        "description": "Every batch is inspected before release and a retention sample is archived.",
+        "icon": "shield-check",
+        "image_url": null,
+        "sort_order": 8
+      }
+    ],
+    "certificates": [
+      {
+        "id": 1,
+        "type": "certificate",
+        "title": "Food & Drug Administration Manufacturing License",
+        "issuer": "Iran FDA",
+        "description": "Upload the official scan of this document from the admin panel.",
+        "certificate_number": null,
+        "issued_at": null,
+        "expires_at": null,
+        "is_expired": false,
+        "image_url": null,
+        "file_url": null,
+        "sort_order": 1
+      },
+      {
+        "id": 2,
+        "type": "standard",
+        "title": "Iranian National Standard Mark",
+        "issuer": "INSO",
+        "description": "Upload the official scan of this document from the admin panel.",
+        "certificate_number": null,
+        "issued_at": null,
+        "expires_at": null,
+        "is_expired": false,
+        "image_url": null,
+        "file_url": null,
+        "sort_order": 2
+      },
+      {
+        "id": 3,
+        "type": "certificate",
+        "title": "ISO 22000 Food Safety Management",
+        "issuer": "Certification body",
+        "description": "Upload the official scan of this document from the admin panel.",
+        "certificate_number": null,
+        "issued_at": null,
+        "expires_at": null,
+        "is_expired": false,
+        "image_url": null,
+        "file_url": null,
+        "sort_order": 3
+      },
+      {
+        "id": 4,
+        "type": "certificate",
+        "title": "HACCP",
+        "issuer": "Certification body",
+        "description": "Upload the official scan of this document from the admin panel.",
+        "certificate_number": null,
+        "issued_at": null,
+        "expires_at": null,
+        "is_expired": false,
+        "image_url": null,
+        "file_url": null,
+        "sort_order": 4
+      }
+    ],
+    "articles": [
+      {
+        "id": 3,
+        "slug": "website-launch",
+        "type": "news",
+        "title": "Our new website is live",
+        "excerpt": "The new website launches with online agency requests and downloadable certificates.",
+        "cover_url": null,
+        "published_at": "2026-11-17T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 1,
+        "slug": "how-to-read-mineral-water-label",
+        "type": "article",
+        "title": "How to read a mineral water label",
+        "excerpt": "What TDS, pH and mineral composition on the label mean — and how to choose the right water.",
+        "cover_url": null,
+        "published_at": "2026-11-15T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 2,
+        "slug": "hydration-at-work",
+        "type": "article",
+        "title": "Hydration and productivity at work",
+        "excerpt": "Why organizations should give employees easy access to safe drinking water.",
+        "cover_url": null,
+        "published_at": "2026-11-08T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      }
+    ]
+  },
+  "settings": {
+    "site": {
+      "name": "VitaQueen",
+      "legal_name": "VitaQueen Mineral Water Co.",
+      "tagline": "Nature in its purest form",
+      "description": "Natural mineral water producer with fully automated lines, an in-house QC laboratory and nationwide distribution."
+    },
+    "hero": {
+      "title": "Nature in its purest form",
+      "subtitle": "Natural mineral water drawn from the heart of nature and bottled with modern technology for a healthier life.",
+      "video_url": null,
+      "poster_url": null
+    },
+    "stats": [
+      {
+        "key": "production_lines",
+        "value": 2,
+        "suffix": null,
+        "label": "Production lines"
+      },
+      {
+        "key": "products",
+        "value": 5,
+        "suffix": null,
+        "label": "Products"
+      }
+    ],
+    "contact": {
+      "phone": "+98 21 0000 0000",
+      "sales_phone": "+98 912 000 0000",
+      "email": "info@example.com",
+      "sales_email": "sales@example.com",
+      "address": "Enter the factory address from the admin panel",
+      "working_hours": "Sat–Wed 8:00–16:00 · Thu 8:00–12:00",
+      "map": {
+        "lat": 35.6892,
+        "lng": 51.389,
+        "zoom": 13
+      }
+    },
+    "social": {
+      "instagram": null,
+      "linkedin": null,
+      "telegram": null,
+      "whatsapp": null,
+      "aparat": null
+    },
+    "seo": {
+      "title_suffix": "VitaQueen",
+      "keywords": "mineral water, bottled water manufacturer, water distributor, export"
+    }
+  },
+  "categories": [
+    {
+      "id": 1,
+      "slug": "natural-mineral-water",
+      "name": "Natural Mineral Water",
+      "description": "Small, medium and large bottles for everyday, family and corporate use.",
+      "sort_order": 1,
+      "products_count": 4
+    },
+    {
+      "id": 2,
+      "slug": "special-products",
+      "name": "Special Products",
+      "description": "Glass and custom-label products for hotels, restaurants and events.",
+      "sort_order": 2,
+      "products_count": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "slug": "mineral-water-330ml",
+      "sku": "VQ-00330",
+      "name": "Mineral Water 330 ml",
+      "short_description": "Compact and light — ideal for meetings, hospitality and on the go.",
+      "description": "<p>Compact and light — ideal for meetings, hospitality and on the go.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+      "volume_ml": 330,
+      "size_class": "small",
+      "bottle_material": "PET",
+      "units_per_pack": 24,
+      "packs_per_pallet": 84,
+      "shelf_life_months": 12,
+      "ph": null,
+      "tds": null,
+      "mineral_composition": [],
+      "specs": [
+        {
+          "label": "Volume",
+          "value": "330 ml"
+        },
+        {
+          "label": "Bottle material",
+          "value": "Food-grade PET"
+        },
+        {
+          "label": "Cap",
+          "value": "Tamper-evident ring"
+        },
+        {
+          "label": "Packaging",
+          "value": "Shrink-wrapped pack"
+        }
+      ],
+      "barcode": null,
+      "accent_color": "#13A8CE",
+      "is_featured": true,
+      "category": {
+        "id": 1,
+        "slug": "natural-mineral-water",
+        "name": "Natural Mineral Water",
+        "description": "Small, medium and large bottles for everyday, family and corporate use.",
+        "sort_order": 1
+      },
+      "image": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    },
+    {
+      "id": 2,
+      "slug": "mineral-water-500ml",
+      "sku": "VQ-00500",
+      "name": "Mineral Water 500 ml",
+      "short_description": "Our best-selling everyday size for retail.",
+      "description": "<p>Our best-selling everyday size for retail.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+      "volume_ml": 500,
+      "size_class": "small",
+      "bottle_material": "PET",
+      "units_per_pack": 12,
+      "packs_per_pallet": 120,
+      "shelf_life_months": 12,
+      "ph": null,
+      "tds": null,
+      "mineral_composition": [],
+      "specs": [
+        {
+          "label": "Volume",
+          "value": "500 ml"
+        },
+        {
+          "label": "Bottle material",
+          "value": "Food-grade PET"
+        },
+        {
+          "label": "Cap",
+          "value": "Tamper-evident ring"
+        },
+        {
+          "label": "Packaging",
+          "value": "Shrink-wrapped pack"
+        }
+      ],
+      "barcode": null,
+      "accent_color": "#13A8CE",
+      "is_featured": true,
+      "category": {
+        "id": 1,
+        "slug": "natural-mineral-water",
+        "name": "Natural Mineral Water",
+        "description": "Small, medium and large bottles for everyday, family and corporate use.",
+        "sort_order": 1
+      },
+      "image": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T18:04:44+00:00"
+    },
+    {
+      "id": 3,
+      "slug": "mineral-water-1500ml",
+      "sku": "VQ-01500",
+      "name": "Mineral Water 1.5 L",
+      "short_description": "Family size for the dining table and home.",
+      "description": "<p>Family size for the dining table and home.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+      "volume_ml": 1500,
+      "size_class": "medium",
+      "bottle_material": "PET",
+      "units_per_pack": 6,
+      "packs_per_pallet": 80,
+      "shelf_life_months": 12,
+      "ph": null,
+      "tds": null,
+      "mineral_composition": [],
+      "specs": [
+        {
+          "label": "Volume",
+          "value": "1.5 L"
+        },
+        {
+          "label": "Bottle material",
+          "value": "Food-grade PET"
+        },
+        {
+          "label": "Cap",
+          "value": "Tamper-evident ring"
+        },
+        {
+          "label": "Packaging",
+          "value": "Shrink-wrapped pack"
+        }
+      ],
+      "barcode": null,
+      "accent_color": "#0E7FA6",
+      "is_featured": true,
+      "category": {
+        "id": 1,
+        "slug": "natural-mineral-water",
+        "name": "Natural Mineral Water",
+        "description": "Small, medium and large bottles for everyday, family and corporate use.",
+        "sort_order": 1
+      },
+      "image": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    },
+    {
+      "id": 4,
+      "slug": "mineral-water-10l",
+      "sku": "VQ-10000",
+      "name": "Mineral Water 10 L",
+      "short_description": "Handled jug for offices, workshops and bulk use.",
+      "description": "<p>Handled jug for offices, workshops and bulk use.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+      "volume_ml": 10000,
+      "size_class": "large",
+      "bottle_material": "PET",
+      "units_per_pack": 1,
+      "packs_per_pallet": 60,
+      "shelf_life_months": 12,
+      "ph": null,
+      "tds": null,
+      "mineral_composition": [],
+      "specs": [
+        {
+          "label": "Volume",
+          "value": "10 L"
+        },
+        {
+          "label": "Bottle material",
+          "value": "Food-grade PET"
+        },
+        {
+          "label": "Cap",
+          "value": "Tamper-evident ring"
+        },
+        {
+          "label": "Packaging",
+          "value": "Single unit"
+        }
+      ],
+      "barcode": null,
+      "accent_color": "#073B59",
+      "is_featured": true,
+      "category": {
+        "id": 1,
+        "slug": "natural-mineral-water",
+        "name": "Natural Mineral Water",
+        "description": "Small, medium and large bottles for everyday, family and corporate use.",
+        "sort_order": 1
+      },
+      "image": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    },
+    {
+      "id": 5,
+      "slug": "premium-glass-750ml",
+      "sku": "VQ-00750-G",
+      "name": "Premium Glass Bottle 750 ml",
+      "short_description": "Glass bottle for hotels and fine dining.",
+      "description": "<p>Glass bottle for hotels and fine dining.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+      "volume_ml": 750,
+      "size_class": "medium",
+      "bottle_material": "Glass",
+      "units_per_pack": 12,
+      "packs_per_pallet": 50,
+      "shelf_life_months": 24,
+      "ph": null,
+      "tds": null,
+      "mineral_composition": [],
+      "specs": [
+        {
+          "label": "Volume",
+          "value": "750 ml"
+        },
+        {
+          "label": "Bottle material",
+          "value": "Glass"
+        },
+        {
+          "label": "Cap",
+          "value": "Tamper-evident ring"
+        },
+        {
+          "label": "Packaging",
+          "value": "Shrink-wrapped pack"
+        }
+      ],
+      "barcode": null,
+      "accent_color": "#8DD9E9",
+      "is_featured": false,
+      "category": {
+        "id": 2,
+        "slug": "special-products",
+        "name": "Special Products",
+        "description": "Glass and custom-label products for hotels, restaurants and events.",
+        "sort_order": 2
+      },
+      "image": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    }
+  ],
+  "productDetails": {
+    "mineral-water-330ml": {
+      "data": {
+        "id": 1,
+        "slug": "mineral-water-330ml",
+        "sku": "VQ-00330",
+        "name": "Mineral Water 330 ml",
+        "short_description": "Compact and light — ideal for meetings, hospitality and on the go.",
+        "description": "<p>Compact and light — ideal for meetings, hospitality and on the go.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+        "volume_ml": 330,
+        "size_class": "small",
+        "bottle_material": "PET",
+        "units_per_pack": 24,
+        "packs_per_pallet": 84,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "Volume",
+            "value": "330 ml"
+          },
+          {
+            "label": "Bottle material",
+            "value": "Food-grade PET"
+          },
+          {
+            "label": "Cap",
+            "value": "Tamper-evident ring"
+          },
+          {
+            "label": "Packaging",
+            "value": "Shrink-wrapped pack"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#13A8CE",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "Natural Mineral Water",
+          "description": "Small, medium and large bottles for everyday, family and corporate use.",
+          "sort_order": 1
+        },
+        "image": null,
+        "images": [],
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": [
+        {
+          "id": 2,
+          "slug": "mineral-water-500ml",
+          "sku": "VQ-00500",
+          "name": "Mineral Water 500 ml",
+          "short_description": "Our best-selling everyday size for retail.",
+          "description": "<p>Our best-selling everyday size for retail.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+          "volume_ml": 500,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 12,
+          "packs_per_pallet": 120,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "Volume",
+              "value": "500 ml"
+            },
+            {
+              "label": "Bottle material",
+              "value": "Food-grade PET"
+            },
+            {
+              "label": "Cap",
+              "value": "Tamper-evident ring"
+            },
+            {
+              "label": "Packaging",
+              "value": "Shrink-wrapped pack"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "Natural Mineral Water",
+            "description": "Small, medium and large bottles for everyday, family and corporate use.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T18:04:44+00:00"
+        },
+        {
+          "id": 3,
+          "slug": "mineral-water-1500ml",
+          "sku": "VQ-01500",
+          "name": "Mineral Water 1.5 L",
+          "short_description": "Family size for the dining table and home.",
+          "description": "<p>Family size for the dining table and home.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+          "volume_ml": 1500,
+          "size_class": "medium",
+          "bottle_material": "PET",
+          "units_per_pack": 6,
+          "packs_per_pallet": 80,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "Volume",
+              "value": "1.5 L"
+            },
+            {
+              "label": "Bottle material",
+              "value": "Food-grade PET"
+            },
+            {
+              "label": "Cap",
+              "value": "Tamper-evident ring"
+            },
+            {
+              "label": "Packaging",
+              "value": "Shrink-wrapped pack"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#0E7FA6",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "Natural Mineral Water",
+            "description": "Small, medium and large bottles for everyday, family and corporate use.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        },
+        {
+          "id": 4,
+          "slug": "mineral-water-10l",
+          "sku": "VQ-10000",
+          "name": "Mineral Water 10 L",
+          "short_description": "Handled jug for offices, workshops and bulk use.",
+          "description": "<p>Handled jug for offices, workshops and bulk use.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+          "volume_ml": 10000,
+          "size_class": "large",
+          "bottle_material": "PET",
+          "units_per_pack": 1,
+          "packs_per_pallet": 60,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "Volume",
+              "value": "10 L"
+            },
+            {
+              "label": "Bottle material",
+              "value": "Food-grade PET"
+            },
+            {
+              "label": "Cap",
+              "value": "Tamper-evident ring"
+            },
+            {
+              "label": "Packaging",
+              "value": "Single unit"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#073B59",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "Natural Mineral Water",
+            "description": "Small, medium and large bottles for everyday, family and corporate use.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    },
+    "mineral-water-500ml": {
+      "data": {
+        "id": 2,
+        "slug": "mineral-water-500ml",
+        "sku": "VQ-00500",
+        "name": "Mineral Water 500 ml",
+        "short_description": "Our best-selling everyday size for retail.",
+        "description": "<p>Our best-selling everyday size for retail.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+        "volume_ml": 500,
+        "size_class": "small",
+        "bottle_material": "PET",
+        "units_per_pack": 12,
+        "packs_per_pallet": 120,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "Volume",
+            "value": "500 ml"
+          },
+          {
+            "label": "Bottle material",
+            "value": "Food-grade PET"
+          },
+          {
+            "label": "Cap",
+            "value": "Tamper-evident ring"
+          },
+          {
+            "label": "Packaging",
+            "value": "Shrink-wrapped pack"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#13A8CE",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "Natural Mineral Water",
+          "description": "Small, medium and large bottles for everyday, family and corporate use.",
+          "sort_order": 1
+        },
+        "image": null,
+        "images": [],
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T18:04:44+00:00"
+      },
+      "related": [
+        {
+          "id": 1,
+          "slug": "mineral-water-330ml",
+          "sku": "VQ-00330",
+          "name": "Mineral Water 330 ml",
+          "short_description": "Compact and light — ideal for meetings, hospitality and on the go.",
+          "description": "<p>Compact and light — ideal for meetings, hospitality and on the go.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+          "volume_ml": 330,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 24,
+          "packs_per_pallet": 84,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "Volume",
+              "value": "330 ml"
+            },
+            {
+              "label": "Bottle material",
+              "value": "Food-grade PET"
+            },
+            {
+              "label": "Cap",
+              "value": "Tamper-evident ring"
+            },
+            {
+              "label": "Packaging",
+              "value": "Shrink-wrapped pack"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "Natural Mineral Water",
+            "description": "Small, medium and large bottles for everyday, family and corporate use.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        },
+        {
+          "id": 3,
+          "slug": "mineral-water-1500ml",
+          "sku": "VQ-01500",
+          "name": "Mineral Water 1.5 L",
+          "short_description": "Family size for the dining table and home.",
+          "description": "<p>Family size for the dining table and home.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+          "volume_ml": 1500,
+          "size_class": "medium",
+          "bottle_material": "PET",
+          "units_per_pack": 6,
+          "packs_per_pallet": 80,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "Volume",
+              "value": "1.5 L"
+            },
+            {
+              "label": "Bottle material",
+              "value": "Food-grade PET"
+            },
+            {
+              "label": "Cap",
+              "value": "Tamper-evident ring"
+            },
+            {
+              "label": "Packaging",
+              "value": "Shrink-wrapped pack"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#0E7FA6",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "Natural Mineral Water",
+            "description": "Small, medium and large bottles for everyday, family and corporate use.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        },
+        {
+          "id": 4,
+          "slug": "mineral-water-10l",
+          "sku": "VQ-10000",
+          "name": "Mineral Water 10 L",
+          "short_description": "Handled jug for offices, workshops and bulk use.",
+          "description": "<p>Handled jug for offices, workshops and bulk use.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+          "volume_ml": 10000,
+          "size_class": "large",
+          "bottle_material": "PET",
+          "units_per_pack": 1,
+          "packs_per_pallet": 60,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "Volume",
+              "value": "10 L"
+            },
+            {
+              "label": "Bottle material",
+              "value": "Food-grade PET"
+            },
+            {
+              "label": "Cap",
+              "value": "Tamper-evident ring"
+            },
+            {
+              "label": "Packaging",
+              "value": "Single unit"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#073B59",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "Natural Mineral Water",
+            "description": "Small, medium and large bottles for everyday, family and corporate use.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    },
+    "mineral-water-1500ml": {
+      "data": {
+        "id": 3,
+        "slug": "mineral-water-1500ml",
+        "sku": "VQ-01500",
+        "name": "Mineral Water 1.5 L",
+        "short_description": "Family size for the dining table and home.",
+        "description": "<p>Family size for the dining table and home.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+        "volume_ml": 1500,
+        "size_class": "medium",
+        "bottle_material": "PET",
+        "units_per_pack": 6,
+        "packs_per_pallet": 80,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "Volume",
+            "value": "1.5 L"
+          },
+          {
+            "label": "Bottle material",
+            "value": "Food-grade PET"
+          },
+          {
+            "label": "Cap",
+            "value": "Tamper-evident ring"
+          },
+          {
+            "label": "Packaging",
+            "value": "Shrink-wrapped pack"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#0E7FA6",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "Natural Mineral Water",
+          "description": "Small, medium and large bottles for everyday, family and corporate use.",
+          "sort_order": 1
+        },
+        "image": null,
+        "images": [],
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": [
+        {
+          "id": 1,
+          "slug": "mineral-water-330ml",
+          "sku": "VQ-00330",
+          "name": "Mineral Water 330 ml",
+          "short_description": "Compact and light — ideal for meetings, hospitality and on the go.",
+          "description": "<p>Compact and light — ideal for meetings, hospitality and on the go.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+          "volume_ml": 330,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 24,
+          "packs_per_pallet": 84,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "Volume",
+              "value": "330 ml"
+            },
+            {
+              "label": "Bottle material",
+              "value": "Food-grade PET"
+            },
+            {
+              "label": "Cap",
+              "value": "Tamper-evident ring"
+            },
+            {
+              "label": "Packaging",
+              "value": "Shrink-wrapped pack"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "Natural Mineral Water",
+            "description": "Small, medium and large bottles for everyday, family and corporate use.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        },
+        {
+          "id": 2,
+          "slug": "mineral-water-500ml",
+          "sku": "VQ-00500",
+          "name": "Mineral Water 500 ml",
+          "short_description": "Our best-selling everyday size for retail.",
+          "description": "<p>Our best-selling everyday size for retail.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+          "volume_ml": 500,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 12,
+          "packs_per_pallet": 120,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "Volume",
+              "value": "500 ml"
+            },
+            {
+              "label": "Bottle material",
+              "value": "Food-grade PET"
+            },
+            {
+              "label": "Cap",
+              "value": "Tamper-evident ring"
+            },
+            {
+              "label": "Packaging",
+              "value": "Shrink-wrapped pack"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "Natural Mineral Water",
+            "description": "Small, medium and large bottles for everyday, family and corporate use.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T18:04:44+00:00"
+        },
+        {
+          "id": 4,
+          "slug": "mineral-water-10l",
+          "sku": "VQ-10000",
+          "name": "Mineral Water 10 L",
+          "short_description": "Handled jug for offices, workshops and bulk use.",
+          "description": "<p>Handled jug for offices, workshops and bulk use.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+          "volume_ml": 10000,
+          "size_class": "large",
+          "bottle_material": "PET",
+          "units_per_pack": 1,
+          "packs_per_pallet": 60,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "Volume",
+              "value": "10 L"
+            },
+            {
+              "label": "Bottle material",
+              "value": "Food-grade PET"
+            },
+            {
+              "label": "Cap",
+              "value": "Tamper-evident ring"
+            },
+            {
+              "label": "Packaging",
+              "value": "Single unit"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#073B59",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "Natural Mineral Water",
+            "description": "Small, medium and large bottles for everyday, family and corporate use.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    },
+    "mineral-water-10l": {
+      "data": {
+        "id": 4,
+        "slug": "mineral-water-10l",
+        "sku": "VQ-10000",
+        "name": "Mineral Water 10 L",
+        "short_description": "Handled jug for offices, workshops and bulk use.",
+        "description": "<p>Handled jug for offices, workshops and bulk use.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+        "volume_ml": 10000,
+        "size_class": "large",
+        "bottle_material": "PET",
+        "units_per_pack": 1,
+        "packs_per_pallet": 60,
+        "shelf_life_months": 12,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "Volume",
+            "value": "10 L"
+          },
+          {
+            "label": "Bottle material",
+            "value": "Food-grade PET"
+          },
+          {
+            "label": "Cap",
+            "value": "Tamper-evident ring"
+          },
+          {
+            "label": "Packaging",
+            "value": "Single unit"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#073B59",
+        "is_featured": true,
+        "category": {
+          "id": 1,
+          "slug": "natural-mineral-water",
+          "name": "Natural Mineral Water",
+          "description": "Small, medium and large bottles for everyday, family and corporate use.",
+          "sort_order": 1
+        },
+        "image": null,
+        "images": [],
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": [
+        {
+          "id": 1,
+          "slug": "mineral-water-330ml",
+          "sku": "VQ-00330",
+          "name": "Mineral Water 330 ml",
+          "short_description": "Compact and light — ideal for meetings, hospitality and on the go.",
+          "description": "<p>Compact and light — ideal for meetings, hospitality and on the go.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+          "volume_ml": 330,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 24,
+          "packs_per_pallet": 84,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "Volume",
+              "value": "330 ml"
+            },
+            {
+              "label": "Bottle material",
+              "value": "Food-grade PET"
+            },
+            {
+              "label": "Cap",
+              "value": "Tamper-evident ring"
+            },
+            {
+              "label": "Packaging",
+              "value": "Shrink-wrapped pack"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "Natural Mineral Water",
+            "description": "Small, medium and large bottles for everyday, family and corporate use.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        },
+        {
+          "id": 2,
+          "slug": "mineral-water-500ml",
+          "sku": "VQ-00500",
+          "name": "Mineral Water 500 ml",
+          "short_description": "Our best-selling everyday size for retail.",
+          "description": "<p>Our best-selling everyday size for retail.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+          "volume_ml": 500,
+          "size_class": "small",
+          "bottle_material": "PET",
+          "units_per_pack": 12,
+          "packs_per_pallet": 120,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "Volume",
+              "value": "500 ml"
+            },
+            {
+              "label": "Bottle material",
+              "value": "Food-grade PET"
+            },
+            {
+              "label": "Cap",
+              "value": "Tamper-evident ring"
+            },
+            {
+              "label": "Packaging",
+              "value": "Shrink-wrapped pack"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#13A8CE",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "Natural Mineral Water",
+            "description": "Small, medium and large bottles for everyday, family and corporate use.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T18:04:44+00:00"
+        },
+        {
+          "id": 3,
+          "slug": "mineral-water-1500ml",
+          "sku": "VQ-01500",
+          "name": "Mineral Water 1.5 L",
+          "short_description": "Family size for the dining table and home.",
+          "description": "<p>Family size for the dining table and home.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+          "volume_ml": 1500,
+          "size_class": "medium",
+          "bottle_material": "PET",
+          "units_per_pack": 6,
+          "packs_per_pallet": 80,
+          "shelf_life_months": 12,
+          "ph": null,
+          "tds": null,
+          "mineral_composition": [],
+          "specs": [
+            {
+              "label": "Volume",
+              "value": "1.5 L"
+            },
+            {
+              "label": "Bottle material",
+              "value": "Food-grade PET"
+            },
+            {
+              "label": "Cap",
+              "value": "Tamper-evident ring"
+            },
+            {
+              "label": "Packaging",
+              "value": "Shrink-wrapped pack"
+            }
+          ],
+          "barcode": null,
+          "accent_color": "#0E7FA6",
+          "is_featured": true,
+          "category": {
+            "id": 1,
+            "slug": "natural-mineral-water",
+            "name": "Natural Mineral Water",
+            "description": "Small, medium and large bottles for everyday, family and corporate use.",
+            "sort_order": 1
+          },
+          "image": null,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    },
+    "premium-glass-750ml": {
+      "data": {
+        "id": 5,
+        "slug": "premium-glass-750ml",
+        "sku": "VQ-00750-G",
+        "name": "Premium Glass Bottle 750 ml",
+        "short_description": "Glass bottle for hotels and fine dining.",
+        "description": "<p>Glass bottle for hotels and fine dining.</p><p>Drawn from our natural source, multi-stage filtered, laboratory tested and bottled in a fully hygienic, hands-free environment.</p>",
+        "volume_ml": 750,
+        "size_class": "medium",
+        "bottle_material": "Glass",
+        "units_per_pack": 12,
+        "packs_per_pallet": 50,
+        "shelf_life_months": 24,
+        "ph": null,
+        "tds": null,
+        "mineral_composition": [],
+        "specs": [
+          {
+            "label": "Volume",
+            "value": "750 ml"
+          },
+          {
+            "label": "Bottle material",
+            "value": "Glass"
+          },
+          {
+            "label": "Cap",
+            "value": "Tamper-evident ring"
+          },
+          {
+            "label": "Packaging",
+            "value": "Shrink-wrapped pack"
+          }
+        ],
+        "barcode": null,
+        "accent_color": "#8DD9E9",
+        "is_featured": false,
+        "category": {
+          "id": 2,
+          "slug": "special-products",
+          "name": "Special Products",
+          "description": "Glass and custom-label products for hotels, restaurants and events.",
+          "sort_order": 2
+        },
+        "image": null,
+        "images": [],
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": []
+    }
+  },
+  "articles": {
+    "data": [
+      {
+        "id": 3,
+        "slug": "website-launch",
+        "type": "news",
+        "title": "Our new website is live",
+        "excerpt": "The new website launches with online agency requests and downloadable certificates.",
+        "cover_url": null,
+        "published_at": "2026-11-17T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 1,
+        "slug": "how-to-read-mineral-water-label",
+        "type": "article",
+        "title": "How to read a mineral water label",
+        "excerpt": "What TDS, pH and mineral composition on the label mean — and how to choose the right water.",
+        "cover_url": null,
+        "published_at": "2026-11-15T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "id": 2,
+        "slug": "hydration-at-work",
+        "type": "article",
+        "title": "Hydration and productivity at work",
+        "excerpt": "Why organizations should give employees easy access to safe drinking water.",
+        "cover_url": null,
+        "published_at": "2026-11-08T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      }
+    ],
+    "meta": {
+      "current_page": 1,
+      "last_page": 1,
+      "per_page": 9,
+      "total": 3
+    }
+  },
+  "articleDetails": {
+    "website-launch": {
+      "data": {
+        "id": 3,
+        "slug": "website-launch",
+        "type": "news",
+        "title": "Our new website is live",
+        "excerpt": "The new website launches with online agency requests and downloadable certificates.",
+        "body": "<p>Agents, distributors and corporate clients can now submit partnership requests online and review our quality documentation.</p>",
+        "cover_url": null,
+        "author": null,
+        "published_at": "2026-11-17T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": []
+    },
+    "how-to-read-mineral-water-label": {
+      "data": {
+        "id": 1,
+        "slug": "how-to-read-mineral-water-label",
+        "type": "article",
+        "title": "How to read a mineral water label",
+        "excerpt": "What TDS, pH and mineral composition on the label mean — and how to choose the right water.",
+        "body": "<h2>What is TDS?</h2><p>Total dissolved solids (TDS) is the total amount of minerals dissolved in water, expressed in mg/L.</p><h2>pH</h2><p>pH shows how acidic or alkaline water is. Drinking water is usually close to neutral.</p><h2>Minerals</h2><p>Calcium, magnesium, sodium and bicarbonate are the key minerals that shape taste and character.</p>",
+        "cover_url": null,
+        "author": null,
+        "published_at": "2026-11-15T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": [
+        {
+          "id": 2,
+          "slug": "hydration-at-work",
+          "type": "article",
+          "title": "Hydration and productivity at work",
+          "excerpt": "Why organizations should give employees easy access to safe drinking water.",
+          "cover_url": null,
+          "published_at": "2026-11-08T17:38:19+00:00",
+          "reading_minutes": 1,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    },
+    "hydration-at-work": {
+      "data": {
+        "id": 2,
+        "slug": "hydration-at-work",
+        "type": "article",
+        "title": "Hydration and productivity at work",
+        "excerpt": "Why organizations should give employees easy access to safe drinking water.",
+        "body": "<p>Even mild dehydration can affect focus and energy. Reliable bottled water for offices and workshops is part of workplace wellbeing.</p>",
+        "cover_url": null,
+        "author": null,
+        "published_at": "2026-11-08T17:38:19+00:00",
+        "reading_minutes": 1,
+        "meta_title": null,
+        "meta_description": null,
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      "related": [
+        {
+          "id": 1,
+          "slug": "how-to-read-mineral-water-label",
+          "type": "article",
+          "title": "How to read a mineral water label",
+          "excerpt": "What TDS, pH and mineral composition on the label mean — and how to choose the right water.",
+          "cover_url": null,
+          "published_at": "2026-11-15T17:38:19+00:00",
+          "reading_minutes": 1,
+          "meta_title": null,
+          "meta_description": null,
+          "updated_at": "2026-11-18T17:38:19+00:00"
+        }
+      ]
+    }
+  },
+  "certificates": [
+    {
+      "id": 1,
+      "type": "certificate",
+      "title": "Food & Drug Administration Manufacturing License",
+      "issuer": "Iran FDA",
+      "description": "Upload the official scan of this document from the admin panel.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 1
+    },
+    {
+      "id": 2,
+      "type": "standard",
+      "title": "Iranian National Standard Mark",
+      "issuer": "INSO",
+      "description": "Upload the official scan of this document from the admin panel.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 2
+    },
+    {
+      "id": 3,
+      "type": "certificate",
+      "title": "ISO 22000 Food Safety Management",
+      "issuer": "Certification body",
+      "description": "Upload the official scan of this document from the admin panel.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 3
+    },
+    {
+      "id": 4,
+      "type": "certificate",
+      "title": "HACCP",
+      "issuer": "Certification body",
+      "description": "Upload the official scan of this document from the admin panel.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 4
+    },
+    {
+      "id": 5,
+      "type": "lab_report",
+      "title": "Physicochemical Water Analysis Report",
+      "issuer": "Accredited partner laboratory",
+      "description": "Upload the official scan of this document from the admin panel.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 5
+    },
+    {
+      "id": 6,
+      "type": "lab_report",
+      "title": "Microbiological Test Report",
+      "issuer": "In-house QC laboratory",
+      "description": "Upload the official scan of this document from the admin panel.",
+      "certificate_number": null,
+      "issued_at": null,
+      "expires_at": null,
+      "is_expired": false,
+      "image_url": null,
+      "file_url": null,
+      "sort_order": 6
+    }
+  ],
+  "productionLines": [
+    {
+      "id": 1,
+      "name": "Small & Medium Bottle Line",
+      "description": "Fully automatic line: blow molder, rinse-fill-cap monoblock, labeler and shrink wrapper.",
+      "technology": "Linear blow molding, gravity filling, wrap-around labeling",
+      "capacity_per_hour": null,
+      "bottle_sizes": [
+        330,
+        500,
+        1500
+      ],
+      "image_url": null,
+      "sort_order": 1
+    },
+    {
+      "id": 2,
+      "name": "Large Format Line",
+      "description": "Dedicated line for large formats serving households and organizations.",
+      "technology": "Volumetric filling, semi-automatic capping",
+      "capacity_per_hour": null,
+      "bottle_sizes": [
+        10000
+      ],
+      "image_url": null,
+      "sort_order": 2
+    }
+  ],
+  "productionSteps": [
+    {
+      "id": 1,
+      "key": "source",
+      "title": "Water Source",
+      "description": "Water flows from a protected natural source, far from urban and industrial pollution, through sanitary stainless-steel pipelines.",
+      "icon": "droplet",
+      "image_url": null,
+      "sort_order": 1
+    },
+    {
+      "id": 2,
+      "key": "filtration",
+      "title": "Filtration",
+      "description": "Multi-stage sand, carbon and micron filtration removes particles while preserving the natural mineral balance.",
+      "icon": "filter",
+      "image_url": null,
+      "sort_order": 2
+    },
+    {
+      "id": 3,
+      "key": "disinfection",
+      "title": "Disinfection",
+      "description": "UV and ozone disinfection — no chlorine, no chemicals.",
+      "icon": "sun",
+      "image_url": null,
+      "sort_order": 3
+    },
+    {
+      "id": 4,
+      "key": "laboratory",
+      "title": "Laboratory",
+      "description": "Continuous sampling with physicochemical and microbiological tests in our in-house QC lab.",
+      "icon": "flask",
+      "image_url": null,
+      "sort_order": 4
+    },
+    {
+      "id": 5,
+      "key": "filling",
+      "title": "Filling",
+      "description": "Rinsing, filling and capping in a fully automatic monoblock inside a clean room — untouched by hand.",
+      "icon": "bottle",
+      "image_url": null,
+      "sort_order": 5
+    },
+    {
+      "id": 6,
+      "key": "labeling",
+      "title": "Labeling & Coding",
+      "description": "Precise labeling plus production date, expiry and batch number for full traceability.",
+      "icon": "tag",
+      "image_url": null,
+      "sort_order": 6
+    },
+    {
+      "id": 7,
+      "key": "packaging",
+      "title": "Packaging",
+      "description": "Automatic shrink-wrapping, palletizing and stretch-wrapping for safe delivery.",
+      "icon": "package",
+      "image_url": null,
+      "sort_order": 7
+    },
+    {
+      "id": 8,
+      "key": "quality",
+      "title": "Final Quality Control",
+      "description": "Every batch is inspected before release and a retention sample is archived.",
+      "icon": "shield-check",
+      "image_url": null,
+      "sort_order": 8
+    }
+  ],
+  "pages": {
+    "about": {
+      "id": 1,
+      "slug": "about",
+      "title": "About the Factory",
+      "excerpt": "We deliver water exactly as nature made it — with modern technology and uncompromising standards.",
+      "body": "<p>Edit the company introduction from the admin panel: history, ownership, source location and growth.</p>",
+      "sections": [
+        {
+          "type": "mission",
+          "title": "Mission",
+          "body": "To provide safe, natural and reliable drinking water to every family and organization."
+        },
+        {
+          "type": "vision",
+          "title": "Vision",
+          "body": "To become the region’s reference mineral water brand with a strong export presence."
+        },
+        {
+          "type": "values",
+          "title": "Values",
+          "items": [
+            "Purity & health",
+            "Transparent quality",
+            "Responsibility to nature",
+            "Long-term partnerships"
+          ]
+        },
+        {
+          "type": "timeline",
+          "title": "History",
+          "items": []
+        },
+        {
+          "type": "infrastructure",
+          "title": "Infrastructure",
+          "items": [
+            "Food-grade production hall",
+            "Physicochemical & microbiological QC lab",
+            "Covered warehouse & distribution fleet",
+            "Chemical-free treatment & disinfection"
+          ]
+        }
+      ],
+      "cover_url": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    },
+    "export": {
+      "id": 2,
+      "slug": "export",
+      "title": "Export",
+      "excerpt": "We work with international importers and distributors, offering private labels and full export documentation.",
+      "body": "<p>We work with international importers and distributors, offering private labels and full export documentation.</p>",
+      "sections": [],
+      "cover_url": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    },
+    "privacy": {
+      "id": 3,
+      "slug": "privacy",
+      "title": "Privacy Policy",
+      "excerpt": "Information you submit is used only to follow up your request and is never shared with third parties.",
+      "body": "<p>Information you submit is used only to follow up your request and is never shared with third parties.</p>",
+      "sections": [],
+      "cover_url": null,
+      "meta_title": null,
+      "meta_description": null,
+      "updated_at": "2026-11-18T17:38:19+00:00"
+    }
+  },
+  "sitemap": {
+    "products": [
+      {
+        "slug": "mineral-water-330ml",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "slug": "mineral-water-500ml",
+        "updated_at": "2026-11-18T18:04:44+00:00"
+      },
+      {
+        "slug": "mineral-water-1500ml",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "slug": "mineral-water-10l",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "slug": "premium-glass-750ml",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      }
+    ],
+    "articles": [
+      {
+        "slug": "website-launch",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "slug": "how-to-read-mineral-water-label",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      },
+      {
+        "slug": "hydration-at-work",
+        "updated_at": "2026-11-18T17:38:19+00:00"
+      }
+    ]
+  }
+}

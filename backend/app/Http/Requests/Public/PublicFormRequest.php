@@ -44,7 +44,7 @@ abstract class PublicFormRequest extends FormRequest
     {
         return [function ($validator) {
             $started = (int) $this->input('form_started_at');
-            if ($started > 0 && (now()->getTimestampMs() - $started) < 2500) {
+            if ($started > 0 && (now()->getTimestampMs() - $started) < 2000) {
                 $validator->errors()->add('form', 'Submitted too quickly. Please try again.');
             }
         }];

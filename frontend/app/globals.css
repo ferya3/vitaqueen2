@@ -1,26 +1,183 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* ------------------------------------------------------------------ *
+ * Design tokens — "water, nature & technology"
+ * Deep Blue #073B59 · Water Blue #13A8CE · Ice Blue #8DD9E9 · Cloud #F3F8FA
+ * ------------------------------------------------------------------ */
+@theme {
+  --color-deep-50: #e8f1f6;
+  --color-deep-100: #c6dbe7;
+  --color-deep-200: #8fb6cd;
+  --color-deep-300: #5a8fae;
+  --color-deep-400: #2d6a8c;
+  --color-deep-500: #0f4d70;
+  --color-deep-600: #073b59;
+  --color-deep-700: #062f48;
+  --color-deep-800: #052438;
+  --color-deep-900: #031827;
+  --color-deep-950: #020f19;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-water-50: #e9f8fc;
+  --color-water-100: #c8eef8;
+  --color-water-200: #93dcef;
+  --color-water-300: #5ac8e3;
+  --color-water-400: #2db6d8;
+  --color-water-500: #13a8ce;
+  --color-water-600: #0e87a8;
+  --color-water-700: #0c6b86;
+  --color-water-800: #0b566b;
+  --color-water-900: #0a4758;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  --color-ice: #8dd9e9;
+  --color-cloud: #f3f8fa;
+  --color-ink: #0b2233;
+  --color-muted: #5b7486;
+  --color-line: #dde9ef;
+  --color-success: #12a37f;
+  --color-danger: #d64545;
+  --color-warning: #e3a008;
+
+  --font-sans: var(--font-vazirmatn), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-latin: var(--font-inter), var(--font-vazirmatn), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-card: 1.5rem;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 1px 2px rgb(7 59 89 / 0.04), 0 8px 24px -12px rgb(7 59 89 / 0.12);
+  --shadow-lift: 0 2px 4px rgb(7 59 89 / 0.04), 0 24px 48px -20px rgb(7 59 89 / 0.25);
+  --shadow-glow: 0 0 0 1px rgb(19 168 206 / 0.15), 0 20px 60px -20px rgb(19 168 206 / 0.45);
+
+  --ease-water: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --animate-float: float 6s var(--ease-water) infinite;
+  --animate-shimmer: shimmer 2.4s linear infinite;
+  --animate-ripple: ripple 3s ease-out infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0) }
+    50% { transform: translateY(-10px) }
+  }
+  @keyframes shimmer {
+    from { background-position: 200% 0 }
+    to { background-position: -200% 0 }
+  }
+  @keyframes word-in {
+    from { opacity: 0; transform: translateY(0.45em); filter: blur(8px) }
+    to { opacity: 1; transform: none; filter: none }
+  }
+  @keyframes ripple {
+    0% { transform: scale(0.6); opacity: 0.6 }
+    100% { transform: scale(2.4); opacity: 0 }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  :root {
+    color-scheme: light;
+    --header-h: 4.5rem;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    scroll-padding-top: calc(var(--header-h) + 1rem);
+  }
+
+  body {
+    @apply bg-white font-sans text-ink antialiased;
+    font-feature-settings: "ss01", "kern";
+  }
+
+  /* Persian/Arabic text reads better with more leading (set on <html> only so
+     it is inherited — utilities such as leading-* still override it). */
+  html:lang(fa), html:lang(ar) {
+    line-height: 1.9;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-bold tracking-tight text-deep-600;
+    line-height: 1.3;
+  }
+
+  ::selection {
+    background: var(--color-water-200);
+    color: var(--color-deep-700);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-water-500);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  /* Latin-only values (phone, email, sku) inside RTL text */
+  .ltr-value {
+    direction: ltr;
+    unicode-bidi: isolate;
+    font-family: var(--font-latin);
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-[1320px] px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-y {
+    @apply py-20 md:py-28;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-water-200/70 bg-water-50 px-3 py-1 text-xs font-semibold text-water-700;
+  }
+
+  .glass {
+    @apply border border-white/15 bg-white/10 backdrop-blur-xl;
+  }
+
+  .prose-content {
+    @apply max-w-none text-[1.02rem] leading-8 text-ink/85;
+  }
+  .prose-content h2 {
+    @apply mt-10 mb-4 text-2xl;
+  }
+  .prose-content h3 {
+    @apply mt-8 mb-3 text-xl;
+  }
+  .prose-content p {
+    @apply my-4;
+  }
+  .prose-content ul {
+    @apply my-4 list-disc ps-6;
+  }
+  .prose-content ol {
+    @apply my-4 list-decimal ps-6;
+  }
+  .prose-content a {
+    @apply font-medium text-water-700 underline underline-offset-4;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-l from-white via-ice to-water-300 bg-clip-text text-transparent;
+  }
+
+  .bg-water-mesh {
+    background:
+      radial-gradient(60% 50% at 80% 20%, rgb(19 168 206 / 0.35) 0%, transparent 70%),
+      radial-gradient(50% 50% at 10% 80%, rgb(141 217 233 / 0.25) 0%, transparent 70%),
+      linear-gradient(160deg, #052438 0%, #073b59 45%, #0b566b 100%);
+  }
+
+  .skeleton {
+    @apply rounded-lg bg-gradient-to-r from-deep-50 via-cloud to-deep-50 bg-[length:200%_100%] animate-shimmer;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
