@@ -88,4 +88,19 @@ class LeadFormsTest extends TestCase
 
         Notification::assertSentOnDemand(NewLeadReceived::class);
     }
+
+    public function test_spoofed_forwarded_for_header_cannot_bypass_rate_limit(): void
+    {
+        for ($i = 0; $i < 3; $i++) {
+            $this->withServerVariables(['REMOTE_ADDR' => '203.0.113.7'])
+                ->withHeader('X-Forwarded-For', '198.51.100.'.$i)
+                ->postJson('/api/v1/contact', ['name' => 'Sara', 'email' => 'sara@example.com', 'message' => 'Message number '.$i])
+                ->assertCreated();
+        }
+
+        $this->withServerVariables(['REMOTE_ADDR' => '203.0.113.7'])
+            ->withHeader('X-Forwarded-For', '198.51.100.99')
+            ->postJson('/api/v1/contact', ['name' => 'Sara', 'email' => 'sara@example.com', 'message' => 'Still the same client'])
+            ->assertTooManyRequests();
+    }
 }

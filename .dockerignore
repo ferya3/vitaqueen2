@@ -1,0 +1,14 @@
+**/.git
+**/node_modules
+**/.next
+**/vendor
+**/.env
+**/.env.*
+!**/.env.example
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/storage/app/public/*
+backend/database/*.sqlite
+infrastructure/docker/data

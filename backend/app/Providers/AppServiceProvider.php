@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\ServiceProvider;
+use Symfony\Component\HttpFoundation\IpUtils;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -29,7 +30,11 @@ class AppServiceProvider extends ServiceProvider
 
     private function configureRateLimiting(): void
     {
-        RateLimiter::for('public', fn (Request $request) => Limit::perMinute(240)->by($request->ip()));
+        // Server-side rendering traffic from the Next.js container arrives from a private
+        // address (no X-Forwarded-For) and must not share one public bucket.
+        RateLimiter::for('public', fn (Request $request) => IpUtils::isPrivateIp((string) $request->ip())
+            ? Limit::none()
+            : Limit::perMinute(240)->by($request->ip()));
 
         // Lead forms: protect against spam floods.
         RateLimiter::for('forms', fn (Request $request) => [

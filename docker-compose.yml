@@ -1,0 +1,99 @@
+# Production-like stack: docker compose up -d --build
+# Configure secrets in .env (copy from .env.example) before the first start.
+
+name: mineral-water
+
+x-backend: &backend
+  build:
+    context: .
+    dockerfile: infrastructure/docker/backend/Dockerfile
+  image: mineral-water/backend:latest
+  env_file: backend/.env.docker
+  environment:
+    APP_KEY: ${APP_KEY}
+    DB_PASSWORD: ${DB_PASSWORD}
+    FRONTEND_REVALIDATE_SECRET: ${REVALIDATE_SECRET}
+    ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+    APP_URL: ${SITE_URL}
+    FRONTEND_URL: ${SITE_URL}
+  volumes:
+    - storage:/var/www/html/storage/app/public
+  depends_on:
+    postgres: { condition: service_healthy }
+    redis: { condition: service_healthy }
+  restart: unless-stopped
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: aqua
+      POSTGRES_USER: aqua
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aqua -d aqua"]
+      interval: 10s
+      retries: 5
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--appendonly", "yes", "--maxmemory", "256mb", "--maxmemory-policy", "allkeys-lru"]
+    volumes: [redisdata:/data]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      retries: 5
+    restart: unless-stopped
+
+  backend:
+    <<: *backend
+    environment:
+      APP_KEY: ${APP_KEY}
+      DB_PASSWORD: ${DB_PASSWORD}
+      FRONTEND_REVALIDATE_SECRET: ${REVALIDATE_SECRET}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+      APP_URL: ${SITE_URL}
+      FRONTEND_URL: ${SITE_URL}
+      RUN_MIGRATIONS: "true"
+
+  queue:
+    <<: *backend
+    command: ["php", "artisan", "queue:work", "redis", "--sleep=1", "--tries=3", "--max-time=3600"]
+    healthcheck: { disable: true }
+
+  scheduler:
+    <<: *backend
+    command: ["php", "artisan", "schedule:work"]
+    healthcheck: { disable: true }
+
+  frontend:
+    build:
+      context: .
+      dockerfile: infrastructure/docker/frontend/Dockerfile
+      args:
+        NEXT_PUBLIC_SITE_URL: ${SITE_URL}
+        NEXT_PUBLIC_MEDIA_URL: ${SITE_URL}
+        NEXT_PUBLIC_API_URL: /api/v1
+    image: mineral-water/frontend:latest
+    environment:
+      API_INTERNAL_URL: http://nginx:8080/api/v1
+      REVALIDATE_SECRET: ${REVALIDATE_SECRET}
+      ADMIN_COOKIE_SECURE: ${ADMIN_COOKIE_SECURE:-true}
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:1.27-alpine
+    ports: ["${HTTP_PORT:-80}:80"]
+    volumes:
+      - ./infrastructure/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./infrastructure/nginx/snippets:/etc/nginx/snippets:ro
+      - storage:/var/www/html/storage/app/public:ro
+    depends_on: [backend, frontend]
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+  redisdata:
+  storage:

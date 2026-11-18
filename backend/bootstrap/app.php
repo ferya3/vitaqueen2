@@ -16,7 +16,11 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware): void {
-        $middleware->trustProxies(at: '*');
+        // Trust only proxies on private networks (Nginx / Next.js containers). Trusting '*'
+        // would let clients spoof X-Forwarded-For and bypass per-IP rate limits.
+        $middleware->trustProxies(at: array_filter(explode(',', (string) env(
+            'TRUSTED_PROXIES', '127.0.0.1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'
+        ))));
         $middleware->append(SecurityHeaders::class);
         $middleware->api(prepend: [SetLocale::class]);
         $middleware->alias(['active' => EnsureUserIsActive::class]);
