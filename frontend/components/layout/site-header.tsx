@@ -57,7 +57,7 @@ export function SiteHeader({ locale, siteName, items, labels, phone }: SiteHeade
   return (
     <header
       className={cn(
-        "fixed inset-x-0 top-0 z-50 transition-all duration-500 ease-[var(--ease-water)]",
+        "box-fixed fixed top-0 z-50 transition-all duration-500 ease-[var(--ease-water)]",
         solid ? "border-b border-line/70 bg-white/85 shadow-[0_8px_30px_-20px_rgb(7_59_89/0.35)] backdrop-blur-xl" : "bg-transparent",
       )}
     >

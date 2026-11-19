@@ -75,6 +75,8 @@
   :root {
     color-scheme: light;
     --header-h: 4.5rem;
+    /* Boxed layout: maximum width of the whole site on wide screens */
+    --site-max: 1440px;
   }
 
   html {
@@ -119,6 +121,41 @@
 }
 
 @layer components {
+  /* ----------------------------------------------------------- boxed layout
+     On screens wider than --site-max the website sits in a centered box with a
+     soft water-tinted backdrop around it; below that it stays full width. */
+  .site-backdrop {
+    background-color: #e3edf2;
+    background-image:
+      radial-gradient(40% 50% at 0% 10%, rgb(19 168 206 / 0.12), transparent 70%),
+      radial-gradient(40% 50% at 100% 90%, rgb(7 59 89 / 0.1), transparent 70%);
+    background-attachment: fixed;
+  }
+
+  .site-box {
+    position: relative;
+    max-width: var(--site-max);
+    margin-inline: auto;
+    background: #fff;
+    overflow-x: clip; /* decorative shapes never leak outside the box */
+  }
+
+  @media (min-width: 1441px) {
+    .site-box {
+      box-shadow:
+        0 0 0 1px rgb(7 59 89 / 0.06),
+        0 30px 80px -30px rgb(7 59 89 / 0.35);
+    }
+  }
+
+  /* Fixed elements (header) aligned with the box */
+  .box-fixed {
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    max-width: var(--site-max);
+  }
+
   .container-x {
     @apply mx-auto w-full max-w-[1320px] px-4 sm:px-6 lg:px-8;
   }

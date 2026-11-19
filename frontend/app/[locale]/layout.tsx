@@ -24,7 +24,9 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: LayoutProps<"/[locale]">): Promise<Metadata> {
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const settings = await getSettings(locale);
@@ -35,32 +37,66 @@ export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Pr
   };
 }
 
-export default async function LocaleLayout({ children, params }: LayoutProps<"/[locale]">) {
+export default async function LocaleLayout({
+  children,
+  params,
+}: LayoutProps<"/[locale]">) {
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
 
-  const [dict, settings] = await Promise.all([getDictionary(locale), getSettings(locale)]);
-  const nav = mainNav(dict).map((item) => ({ ...item, label: dict.nav[item.key] }));
+  const [dict, settings] = await Promise.all([
+    getDictionary(locale),
+    getSettings(locale),
+  ]);
+  const nav = mainNav(dict).map((item) => ({
+    ...item,
+    label: dict.nav[item.key],
+  }));
 
   return (
-    <html lang={locale} dir={dirOf(locale)} className={cn(vazirmatn.variable, inter.variable)}>
-      <body className={cn(locale === "en" && "font-latin")}>
-        <a href="#main" className="sr-only z-[60] rounded-full bg-white px-4 py-2 text-deep-600 focus:not-sr-only focus:fixed focus:start-4 focus:top-4">
+    <html
+      lang={locale}
+      dir={dirOf(locale)}
+      className={cn(vazirmatn.variable, inter.variable)}
+    >
+      <body className={cn("site-backdrop", locale === "en" && "font-latin")}>
+        <a
+          href="#main"
+          className="sr-only z-[60] rounded-full bg-white px-4 py-2 text-deep-600 focus:not-sr-only focus:fixed focus:start-4 focus:top-4"
+        >
           {dict.nav.skipToContent}
         </a>
         <MotionProvider>
-          <SiteHeader
-            locale={locale}
-            siteName={settings.site.name}
-            items={nav}
-            phone={settings.contact.sales_phone}
-            labels={{ menu: dict.nav.menu, close: dict.nav.close, language: dict.nav.language, cta: dict.nav.partnership, home: dict.nav.home }}
-          />
-          <main id="main">{children}</main>
-          <SiteFooter locale={locale} dict={dict} settings={settings} items={nav} />
+          <div className="site-box">
+            <SiteHeader
+              locale={locale}
+              siteName={settings.site.name}
+              items={nav}
+              phone={settings.contact.sales_phone}
+              labels={{
+                menu: dict.nav.menu,
+                close: dict.nav.close,
+                language: dict.nav.language,
+                cta: dict.nav.partnership,
+                home: dict.nav.home,
+              }}
+            />
+            <main id="main">{children}</main>
+            <SiteFooter
+              locale={locale}
+              dict={dict}
+              settings={settings}
+              items={nav}
+            />
+          </div>
         </MotionProvider>
         <PageTracker />
-        <JsonLd data={[organizationJsonLd(settings, locale), websiteJsonLd(settings, locale)]} />
+        <JsonLd
+          data={[
+            organizationJsonLd(settings, locale),
+            websiteJsonLd(settings, locale),
+          ]}
+        />
       </body>
     </html>
   );
