@@ -5,7 +5,9 @@ import { ADMIN_COOKIE } from "@/lib/admin/constants";
 
 export const API_URL = (process.env.API_INTERNAL_URL ?? process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000/api/v1").replace(/\/$/, "");
 
-export const secureCookie = process.env.NODE_ENV === "production" || process.env.ADMIN_COOKIE_SECURE === "true";
+// Explicit ADMIN_COOKIE_SECURE wins (set "false" for plain-HTTP installs on an IP);
+// otherwise the cookie is Secure in production.
+export const secureCookie = process.env.ADMIN_COOKIE_SECURE ? process.env.ADMIN_COOKIE_SECURE === "true" : process.env.NODE_ENV === "production";
 
 /**
  * CSRF protection for cookie-authenticated mutations: the request must come from

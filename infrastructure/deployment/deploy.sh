@@ -24,7 +24,7 @@ echo "→ Starting services"
 docker compose up -d --remove-orphans
 
 echo "→ Waiting for the API health check"
-for i in $(seq 1 30); do
+for _ in $(seq 1 30); do
   if docker compose exec -T nginx wget -qO- http://127.0.0.1/up >/dev/null 2>&1; then break; fi
   sleep 2
 done

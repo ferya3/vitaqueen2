@@ -1,10 +1,11 @@
-# syntax=docker/dockerfile:1.7
 # Next.js 16 frontend — standalone output.
 
 FROM node:22-alpine AS deps
 WORKDIR /app
 COPY frontend/package.json frontend/package-lock.json ./
-RUN npm ci --no-audit --no-fund
+# Optional npm mirror for networks where registry.npmjs.org is slow or blocked.
+ARG NPM_REGISTRY=https://registry.npmjs.org/
+RUN npm ci --no-audit --no-fund --registry="$NPM_REGISTRY"
 
 FROM node:22-alpine AS build
 WORKDIR /app

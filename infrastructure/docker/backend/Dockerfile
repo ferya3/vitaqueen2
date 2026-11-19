@@ -1,10 +1,9 @@
-# syntax=docker/dockerfile:1.7
 # Laravel 13 API — PHP-FPM image (also used for the queue worker and scheduler).
 
 FROM composer:2 AS vendor
 WORKDIR /app
 COPY backend/composer.json backend/composer.lock ./
-RUN composer install --no-dev --no-interaction --no-scripts --no-autoloader --prefer-dist
+RUN composer install --no-dev --no-interaction --no-scripts --no-autoloader --prefer-dist --ignore-platform-reqs
 COPY backend/ ./
 RUN composer dump-autoload --no-dev --optimize --classmap-authoritative
 
@@ -25,7 +24,7 @@ WORKDIR /var/www/html
 COPY --from=vendor --chown=www-data:www-data /app /var/www/html
 
 RUN chmod +x /usr/local/bin/entrypoint \
- && mkdir -p storage/app/public storage/framework/{cache,sessions,views} storage/logs bootstrap/cache \
+ && mkdir -p storage/app/public storage/framework/cache storage/framework/sessions storage/framework/views storage/logs bootstrap/cache \
  && chown -R www-data:www-data storage bootstrap/cache
 
 USER www-data

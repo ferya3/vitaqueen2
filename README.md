@@ -54,7 +54,15 @@ cd frontend && npm install && cp .env.example .env.local && npm run dev
 - سایت: http://localhost:3000 (به `/fa` هدایت می‌شود)
 - پنل مدیریت: http://localhost:3000/admin — کاربر اولیه از `ADMIN_EMAIL` / `ADMIN_PASSWORD` در `backend/.env` ساخته می‌شود (پیش‌فرض `admin@example.com` / `ChangeMe!2026`؛ **بلافاصله تغییر دهید**).
 
-## اجرای Production با Docker
+## نصب تک‌خطی روی سرور Ubuntu 24.04
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/ferya3/vitaqueen2/claude/stoic-keller-sk9h27/install.sh | sudo bash -s -- --domain example.com --email you@example.com
+```
+
+بدون دامنه (روی IP سرور، HTTP): همان دستور بدون `-s -- --domain ...`. اجرای دوباره همان دستور = به‌روزرسانی. گزینه‌ها: `--docker-mirror URL`، `--npm-registry URL`، `--admin-email`، `--branch`، `--dir`. اطلاعات ورود در `/root/vitaqueen-credentials.txt` ذخیره می‌شود.
+
+## اجرای Production با Docker (دستی)
 
 ```bash
 cp .env.example .env

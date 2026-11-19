@@ -1,5 +1,13 @@
 # استقرار و نگهداری (Ubuntu 24.04 + Docker)
 
+## روش سریع: نصب‌کننده تک‌خطی
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/ferya3/vitaqueen2/claude/stoic-keller-sk9h27/install.sh | sudo bash -s -- --domain example.com --email you@example.com
+```
+
+`install.sh` این کارها را انجام می‌دهد: نصب Docker از مخازن خود Ubuntu، ساخت swap روی سرورهای کم‌حافظه، دریافت کد در `/opt/vitaqueen`، ساخت رمزهای تصادفی در `.env`، گرفتن گواهی Let's Encrypt (با تمدید خودکار)، build و اجرای سرویس‌ها، ساخت مدیر کل در اولین نصب. اجرای دوباره = به‌روزرسانی (داده و رمزها حفظ می‌شوند). روش دستی در ادامه آمده است.
+
 ## ۱. آماده‌سازی سرور (یک بار)
 
 ```bash
@@ -26,7 +34,7 @@ SEED=true ./infrastructure/deployment/deploy.sh main
 ## ۴. HTTPS
 
 دو گزینه: TLS در CDN (Cloudflare/ArvanCloud) و Nginx روی 80، یا Let's Encrypt:
-`infrastructure/nginx/ssl.conf.example` را کپی کنید، پورت 443 و volumeهای `/etc/letsencrypt` و `/var/www/certbot` را به سرویس nginx اضافه کنید و `certbot certonly --webroot` بگیرید.
+`install.sh --domain ... --email ...` این کار را خودکار انجام می‌دهد (`infrastructure/nginx/ssl.conf.template` + `docker-compose.override.yml`).
 
 ## ۵. استقرارهای بعدی
 
