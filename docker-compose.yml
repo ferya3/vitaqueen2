@@ -3,10 +3,10 @@
 
 name: mineral-water
 
+# Shared settings for backend / queue / scheduler. Only the "backend" service
+# builds the image; queue and scheduler reuse it (building the same tag three
+# times in parallel makes the export fail with "already exists").
 x-backend: &backend
-  build:
-    context: .
-    dockerfile: infrastructure/docker/backend/Dockerfile
   image: mineral-water/backend:latest
   env_file: backend/.env.docker
   environment:
@@ -50,6 +50,9 @@ services:
 
   backend:
     <<: *backend
+    build:
+      context: .
+      dockerfile: infrastructure/docker/backend/Dockerfile
     environment:
       APP_KEY: ${APP_KEY}
       DB_PASSWORD: ${DB_PASSWORD}
@@ -64,11 +67,21 @@ services:
     <<: *backend
     command: ["php", "artisan", "queue:work", "redis", "--sleep=1", "--tries=3", "--max-time=3600"]
     healthcheck: { disable: true }
+    pull_policy: never
+    depends_on:
+      postgres: { condition: service_healthy }
+      redis: { condition: service_healthy }
+      backend: { condition: service_healthy }  # migrations finished
 
   scheduler:
     <<: *backend
     command: ["php", "artisan", "schedule:work"]
     healthcheck: { disable: true }
+    pull_policy: never
+    depends_on:
+      postgres: { condition: service_healthy }
+      redis: { condition: service_healthy }
+      backend: { condition: service_healthy }  # migrations finished
 
   frontend:
     build:
